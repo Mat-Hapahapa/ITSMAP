@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:custom="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -14,7 +14,8 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Weather: Location (Todo: edit to Aarhuc/location)" />
+        android:text="Weather: Location (Todo: edit to Aarhuc/location)"
+        android:id="@+id/CurrLocation"/>
 
     <com.github.pwittchen.weathericonview.WeatherIconView
         android:id="@+id/weatherImg"
@@ -22,18 +23,55 @@
         android:layout_height="wrap_content"
         custom:weatherIconColor="@android:color/black"
         custom:weatherIconResource="@string/wi_day_sunny_overcast"
-        custom:weatherIconSize="100" />
+        custom:weatherIconSize="100"
+        android:layout_below="@+id/CurrLocation"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Current:"
+        android:layout_toRightOf="@+id/weatherImg"
+        android:layout_below="@+id/CurrLocation"
+        android:id="@+id/CurrentText"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="tmpCloudy"
+        android:layout_below="@+id/CurrentText"
+        android:layout_toRightOf="@+id/weatherImg"
+        android:id="@+id/weatherInfoText"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="tmp degrees"
+        android:id="@+id/weatherDegreeText"
+        android:layout_below="@+id/weatherInfoText"
+        android:layout_toRightOf="@+id/weatherImg"
+        />
+
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Past 24 hours:" />
+        android:text="Past 24 hours:"
+        android:id="@+id/history"
+        android:layout_below="@+id/weatherImg"/>
 
 
     <ListView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/historyList">
+        android:id="@+id/historyList"
+        android:layout_below="@+id/history"
+        android:focusable="false"
+        android:listSelector="@android:color/transparent">
     </ListView>
 
-</LinearLayout>
+   <android.support.design.widget.FloatingActionButton
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:src="@drawable/ic_action_autorenew"
+       android:scaleType="center"
+       android:layout_alignParentRight="true"
+       android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>
