@@ -14,6 +14,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="Weather: Location (Todo: edit to Aarhuc/location)"
         android:id="@+id/CurrLocation"/>
 
@@ -52,6 +53,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="Past 24 hours:"
         android:id="@+id/history"
         android:layout_below="@+id/weatherImg"/>

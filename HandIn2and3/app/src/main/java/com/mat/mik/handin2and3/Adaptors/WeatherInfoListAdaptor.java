@@ -81,57 +81,39 @@ public class WeatherInfoListAdaptor extends BaseAdapter {
     private void setWeatherPicture(View convertView, String weatherDesc) {
         WeatherIconView weatherIconView;
         weatherIconView = (WeatherIconView) convertView.findViewById(R.id.weatherIcon);
+        weatherIconView.setIconSize(40);
+        weatherIconView.setIconColor(Color.BLACK);
 
         switch (weatherDesc) {
             case "clear sky":
                 weatherIconView.setIconResource(this.context.getString(R.string.wi_day_sunny));
-                weatherIconView.setIconSize(40);
-                weatherIconView.setIconColor(Color.BLACK);
                 break;
             case "few clouds":
                 weatherIconView.setIconResource(this.context.getString(R.string.wi_day_cloudy));
-                weatherIconView.setIconSize(40);
-                weatherIconView.setIconColor(Color.BLACK);
                 break;
             case "scattered clouds":
                 weatherIconView.setIconResource(this.context.getString(R.string.wi_cloud));
-                weatherIconView.setIconSize(40);
-                weatherIconView.setIconColor(Color.BLACK);
                 break;
             case "broken clouds":
                 weatherIconView.setIconResource(this.context.getString(R.string.wi_cloudy));
-                weatherIconView.setIconSize(40);
-                weatherIconView.setIconColor(Color.BLACK);
                 break;
             case "shower rain":
                 weatherIconView.setIconResource(this.context.getString(R.string.wi_showers));
-                weatherIconView.setIconSize(40);
-                weatherIconView.setIconColor(Color.BLACK);
                 break;
             case "rain":
                 weatherIconView.setIconResource(this.context.getString(R.string.wi_rain));
-                weatherIconView.setIconSize(40);
-                weatherIconView.setIconColor(Color.BLACK);
                 break;
             case "thunderstorm":
                 weatherIconView.setIconResource(this.context.getString(R.string.wi_thunderstorm));
-                weatherIconView.setIconSize(40);
-                weatherIconView.setIconColor(Color.BLACK);
                 break;
             case "snow":
                 weatherIconView.setIconResource(this.context.getString(R.string.wi_snow));
-                weatherIconView.setIconSize(40);
-                weatherIconView.setIconColor(Color.BLACK);
                 break;
             case "mist":
                 weatherIconView.setIconResource(this.context.getString(R.string.wi_fog));
-                weatherIconView.setIconSize(40);
-                weatherIconView.setIconColor(Color.BLACK);
                 break;
             default:
                 weatherIconView.setIconResource(this.context.getString(R.string.wi_na));
-                weatherIconView.setIconSize(40);
-                weatherIconView.setIconColor(Color.BLACK);
                 break;
         }
 

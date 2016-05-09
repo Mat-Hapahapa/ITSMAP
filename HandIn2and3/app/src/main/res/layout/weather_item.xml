@@ -18,7 +18,8 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:layout_toRightOf="@+id/weatherIcon"
-        android:layout_centerInParent="true">
+        android:layout_centerInParent="true"
+        android:layout_margin="8dp">
 
         <TextView
             android:id="@+id/wheatherDesc"
@@ -39,7 +40,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
         android:orientation="vertical"
-        android:layout_centerInParent="true">
+        android:layout_centerInParent="true"
+        android:layout_margin="8dp">
 
         <TextView
             android:id="@+id/degrees"
