@@ -6,6 +6,7 @@ import android.database.sqlite.SQLiteDatabase;
 import android.os.AsyncTask;
 import android.os.Binder;
 import android.os.IBinder;
+import android.support.v4.content.LocalBroadcastManager;
 import android.util.Log;
 import android.widget.BaseAdapter;
 
@@ -96,6 +97,9 @@ public class BackgroundDataService extends Service {
         public void run() {
             WeatherInfo wInfo = new WeatherInfo(urlCall(API_STR));
             dbManager.addWeatherInfo(wInfo);
+
+            Intent intent = new Intent(getApplicationContext().getResources().getString(R.string.new_data));
+            LocalBroadcastManager.getInstance(getApplicationContext()).sendBroadcast(intent);
         }
 
     private String urlCall(String ConnectionStr) {
