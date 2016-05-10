@@ -6,12 +6,15 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.provider.BaseColumns;
+import android.util.Log;
 
 import com.mat.mik.handin2and3.Models.WeatherInfo;
 
 import java.text.DateFormat;
+import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Calendar;
 
 /**
  * Created by Mikkel on 05-05-2016. a
@@ -25,6 +28,7 @@ import java.util.ArrayList;
 
 public class DatabaseManager extends SQLiteOpenHelper {
 
+    private static final String TAG = DatabaseManager.class.getSimpleName();
     public static final int DATABASE_VERSION = 1;
     public static final String DATABASE_NAME = "WeatherInfo.db";
 
@@ -60,7 +64,9 @@ public class DatabaseManager extends SQLiteOpenHelper {
         ContentValues values = new ContentValues();
         values.put(Contract.WeatherInfoEntry.COLUMN_DESCRIPTION, weatherInfo.description);
         values.put(Contract.WeatherInfoEntry.COLUMN_TEMPERATURE, weatherInfo.temperature);
-        values.put(Contract.WeatherInfoEntry.COLUMN_TIMESTAMP, weatherInfo.timestamp.toString());
+        DateFormat format = new SimpleDateFormat("dd-MM-yyyy HH:mm");
+        String timeStampString = format.format(weatherInfo.timestamp);
+        values.put(Contract.WeatherInfoEntry.COLUMN_TIMESTAMP,timeStampString);
 
         long id = db.insert(Contract.WeatherInfoEntry.TABLE_NAME, null, values);
         if(id == -1) {
@@ -106,6 +112,17 @@ public class DatabaseManager extends SQLiteOpenHelper {
                     Contract.WeatherInfoEntry.COLUMN_TIMESTAMP));
             DateFormat format = new SimpleDateFormat("dd-MM-yyyy HH:mm");
 
+            try
+            {
+                info.timestamp = format.parse(timestampString);
+            } catch (ParseException ex) {
+                Log.e(TAG, ex.toString());
+            }
+            info.id = c.getLong(c.getColumnIndex(
+                    Contract.WeatherInfoEntry.COLUMN_ID));
+            info.temperature = c.getDouble(c.getColumnIndex(
+                    Contract.WeatherInfoEntry.COLUMN_TEMPERATURE));
+            info.description = c.getString(c.getColumnIndex(Contract.WeatherInfoEntry.COLUMN_DESCRIPTION));
             weatherInfoList.add(info);
         }
         return weatherInfoList;
