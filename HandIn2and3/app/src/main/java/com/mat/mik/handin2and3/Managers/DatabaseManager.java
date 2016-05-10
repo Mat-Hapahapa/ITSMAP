@@ -71,6 +71,7 @@ public class DatabaseManager extends SQLiteOpenHelper {
         long id = db.insert(Contract.WeatherInfoEntry.TABLE_NAME, null, values);
         if(id == -1) {
             //TODO: Errorhandling
+            Log.d(TAG, "Couldn't insert weatherinfo");
         }else
         {
             weatherInfo.id = id;
