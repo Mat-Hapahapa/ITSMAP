@@ -15,8 +15,10 @@ import com.github.pwittchen.weathericonview.WeatherIconView;
 import com.mat.mik.handin2and3.Adaptors.WeatherInfoListAdaptor;
 import com.mat.mik.handin2and3.Models.WeatherInfo;
 
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.SimpleTimeZone;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -67,12 +69,9 @@ public class MainActivity extends AppCompatActivity {
     public void setCurrentWeather() {
         currWeather = mService.getCurrentWeather();
 
-        /* Change icon to match current weather - from project: https://github.com/pwittchen/WeatherIconView */
-        WeatherIconView weatherIconView;
-        weatherIconView = (WeatherIconView) findViewById(R.id.weatherImg);
-        weatherIconView.setIconResource(getString(R.string.wi_day_cloudy));
-
         if (currWeather.description != null) {
+            setCurrentImg(currWeather.description);
+
             TextView CurrDesc = (TextView) findViewById(R.id.weatherInfoText);
             CurrDesc.setText(currWeather.description);
         }
@@ -86,6 +85,47 @@ public class MainActivity extends AppCompatActivity {
             wAdaptor = new WeatherInfoListAdaptor(this, (ArrayList<WeatherInfo>) mService.getPastWeather());
             weatherList = (ListView) findViewById(R.id.historyList);
             weatherList.setAdapter(wAdaptor);
+        }
+    }
+    /* Change icon to match current weather - from project: https://github.com/pwittchen/WeatherIconView */
+    public void setCurrentImg (String wDesc){
+        WeatherIconView weatherIconView;
+        weatherIconView = (WeatherIconView) findViewById(R.id.weatherImg);
+        if (wDesc != null) {
+            switch (wDesc) {
+                case "clear sky":
+                    weatherIconView.setIconResource(getString(R.string.wi_day_sunny));
+                    break;
+                case "few clouds":
+                    weatherIconView.setIconResource(getString(R.string.wi_day_cloudy));
+                    break;
+                case "scattered clouds":
+                    weatherIconView.setIconResource(getString(R.string.wi_cloud));
+                    break;
+                case "broken clouds":
+                    weatherIconView.setIconResource(getString(R.string.wi_cloudy));
+                    break;
+                case "shower rain":
+                    weatherIconView.setIconResource(getString(R.string.wi_showers));
+                    break;
+                case "rain":
+                    weatherIconView.setIconResource(getString(R.string.wi_rain));
+                    break;
+                case "thunderstorm":
+                    weatherIconView.setIconResource(getString(R.string.wi_thunderstorm));
+                    break;
+                case "snow":
+                    weatherIconView.setIconResource(getString(R.string.wi_snow));
+                    break;
+                case "mist":
+                    weatherIconView.setIconResource(getString(R.string.wi_fog));
+                    break;
+                default:
+                    weatherIconView.setIconResource(getString(R.string.wi_na));
+                    break;
+            }
+        } else {
+            weatherIconView.setIconResource(getString(R.string.wi_na));
         }
     }
 }

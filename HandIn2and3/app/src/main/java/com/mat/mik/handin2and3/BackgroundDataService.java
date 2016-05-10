@@ -98,14 +98,14 @@ public class BackgroundDataService extends Service {
             dbManager.addWeatherInfo(wInfo);
         }
 
-    private String urlCall(String ConncetionStr) {
+    private String urlCall(String ConnectionStr) {
     /* Note: documentation from:
     * http://developer.android.com/reference/java/net/HttpURLConnection.html#setRequestMethod(java.lang.String)
     * */
         HttpURLConnection urlConnection = null;
 
         try {
-            URL url = new URL(ConncetionStr);
+            URL url = new URL(ConnectionStr);
             urlConnection = (HttpURLConnection) url.openConnection();
             urlConnection.setReadTimeout(10000);
             urlConnection.setConnectTimeout(10000);
