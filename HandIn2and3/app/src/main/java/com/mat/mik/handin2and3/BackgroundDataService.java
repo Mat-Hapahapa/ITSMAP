@@ -55,8 +55,11 @@ public class BackgroundDataService extends Service {
 
     public List<WeatherInfo> getPastWeather() {
         ArrayList<WeatherInfo> tmpList = dbManager.getWeatherInfo();
+        int listSize = tmpList.size();
+
         if (tmpList.size() > 1) {
-            return new ArrayList<>(tmpList.subList(1, tmpList.size()-1));
+            if (listSize > 49) { listSize = 49;}
+            return new ArrayList<>(tmpList.subList(1, listSize));
         }
         else {return null;}
     }
@@ -90,7 +93,7 @@ public class BackgroundDataService extends Service {
         @Override
         protected Void doInBackground(String... params) {
 
-            timer.schedule(new timerTasks(),0 , 5000 );
+            timer.schedule(new timerTasks(),0 , 1800000 );
             return null;
         }
     }

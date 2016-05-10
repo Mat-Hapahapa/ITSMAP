@@ -73,6 +73,7 @@
        android:layout_height="wrap_content"
        android:src="@drawable/ic_action_autorenew"
        android:scaleType="center"
+       android:id="@+id/fapBtn"
        android:layout_alignParentRight="true"
        android:layout_alignParentBottom="true"/>
 
