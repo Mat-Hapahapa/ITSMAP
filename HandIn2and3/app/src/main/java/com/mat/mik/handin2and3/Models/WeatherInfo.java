@@ -45,7 +45,7 @@ public class WeatherInfo {
 
             description = weatherObject.getString(JSON_KEY_DESCRIPTION);
             temp = mainObject.getDouble(JSON_KEY_TEMP);
-            temp = kelvinCelsiusDiff;
+            temp += kelvinCelsiusDiff;
         } catch (JSONException ex) {
             Log.e(TAG, ex.toString());
         }

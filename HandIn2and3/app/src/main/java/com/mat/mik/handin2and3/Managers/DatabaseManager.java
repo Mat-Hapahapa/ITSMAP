@@ -32,7 +32,7 @@ public class DatabaseManager extends SQLiteOpenHelper {
     private static final String COMMA_SEP = ",";
     private static final String SQL_CREATE_ENTRIES = "CREATE TABLE "
             + Contract.WeatherInfoEntry.TABLE_NAME + " (" + Contract.WeatherInfoEntry.COLUMN_ID
-            + " LONG PRIMARY KEY" + COMMA_SEP + Contract.WeatherInfoEntry.COLUMN_DESCRIPTION +
+            + " INTEGER PRIMARY KEY AUTOINCREMENT" + COMMA_SEP + Contract.WeatherInfoEntry.COLUMN_DESCRIPTION +
             TEXT_TYPE + COMMA_SEP + Contract.WeatherInfoEntry.COLUMN_TEMPERATURE +
             TEXT_TYPE + COMMA_SEP + Contract.WeatherInfoEntry.COLUMN_TIMESTAMP +
             TEXT_TYPE + " )";
