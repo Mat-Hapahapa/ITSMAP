@@ -1,13 +1,18 @@
 package com.mat.mik.handin2and3;
 
+import android.content.BroadcastReceiver;
 import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
+import android.content.IntentFilter;
 import android.content.ServiceConnection;
 import android.graphics.Color;
+import android.nfc.Tag;
 import android.os.IBinder;
+import android.support.v4.content.LocalBroadcastManager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.widget.ListView;
 import android.widget.TextView;
 
@@ -26,12 +31,13 @@ public class MainActivity extends AppCompatActivity {
     private WeatherInfoListAdaptor wAdaptor;
     BackgroundDataService mService;
     private WeatherInfo currWeather;
+    private static final String TAG = MainActivity.class.getSimpleName();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+        LocalBroadcastManager.getInstance(this).registerReceiver(receiver, new IntentFilter(getString(R.string.new_data)));
     }
 
     @Override
@@ -128,4 +134,14 @@ public class MainActivity extends AppCompatActivity {
             weatherIconView.setIconResource(getString(R.string.wi_na));
         }
     }
+
+    private final BroadcastReceiver receiver = new BroadcastReceiver() {
+        @Override
+        public void onReceive(Context context, Intent intent) {
+                setCurrentWeather();
+                setPastWeather();
+            Log.d(TAG,"Update Received from service");
+        }
+    };
+
 }

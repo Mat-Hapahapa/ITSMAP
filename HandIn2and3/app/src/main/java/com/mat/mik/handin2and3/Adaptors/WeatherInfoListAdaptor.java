@@ -63,7 +63,6 @@ public class WeatherInfoListAdaptor extends BaseAdapter {
             convertView = demoInflator.inflate(R.layout.weather_item, null);
         }
 
-        //ToDo: Set image ud fra vejret
 
         wInfo = weatherInfoList.get(position);
         if (wInfo != null) {

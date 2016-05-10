@@ -20,6 +20,7 @@ import java.io.InputStream;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Timer;
 import java.util.TimerTask;
@@ -53,7 +54,11 @@ public class BackgroundDataService extends Service {
     }
 
     public List<WeatherInfo> getPastWeather() {
-        return dbManager.getWeatherInfo();
+        ArrayList<WeatherInfo> tmpList = dbManager.getWeatherInfo();
+        if (tmpList.size() > 1) {
+            return new ArrayList<>(tmpList.subList(1, tmpList.size()-1));
+        }
+        else {return null;}
     }
 
 
