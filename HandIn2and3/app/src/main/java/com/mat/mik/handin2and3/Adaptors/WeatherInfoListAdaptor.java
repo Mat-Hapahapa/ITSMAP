@@ -81,41 +81,41 @@ public class WeatherInfoListAdaptor extends BaseAdapter {
     private void setWeatherPicture(View convertView, String weatherDesc) {
         WeatherIconView weatherIconView;
         weatherIconView = (WeatherIconView) convertView.findViewById(R.id.weatherIcon);
-        weatherIconView.setIconSize(40);
-        weatherIconView.setIconColor(Color.BLACK);
 
-        switch (weatherDesc) {
-            case "clear sky":
-                weatherIconView.setIconResource(this.context.getString(R.string.wi_day_sunny));
-                break;
-            case "few clouds":
-                weatherIconView.setIconResource(this.context.getString(R.string.wi_day_cloudy));
-                break;
-            case "scattered clouds":
-                weatherIconView.setIconResource(this.context.getString(R.string.wi_cloud));
-                break;
-            case "broken clouds":
-                weatherIconView.setIconResource(this.context.getString(R.string.wi_cloudy));
-                break;
-            case "shower rain":
-                weatherIconView.setIconResource(this.context.getString(R.string.wi_showers));
-                break;
-            case "rain":
-                weatherIconView.setIconResource(this.context.getString(R.string.wi_rain));
-                break;
-            case "thunderstorm":
-                weatherIconView.setIconResource(this.context.getString(R.string.wi_thunderstorm));
-                break;
-            case "snow":
-                weatherIconView.setIconResource(this.context.getString(R.string.wi_snow));
-                break;
-            case "mist":
-                weatherIconView.setIconResource(this.context.getString(R.string.wi_fog));
-                break;
-            default:
-                weatherIconView.setIconResource(this.context.getString(R.string.wi_na));
-                break;
-        }
+        if (weatherDesc != null) {
+            switch (weatherDesc) {
+                case "clear sky":
+                    weatherIconView.setIconResource(this.context.getString(R.string.wi_day_sunny));
+                    break;
+                case "few clouds":
+                    weatherIconView.setIconResource(this.context.getString(R.string.wi_day_cloudy));
+                    break;
+                case "scattered clouds":
+                    weatherIconView.setIconResource(this.context.getString(R.string.wi_cloud));
+                    break;
+                case "broken clouds":
+                    weatherIconView.setIconResource(this.context.getString(R.string.wi_cloudy));
+                    break;
+                case "shower rain":
+                    weatherIconView.setIconResource(this.context.getString(R.string.wi_showers));
+                    break;
+                case "rain":
+                    weatherIconView.setIconResource(this.context.getString(R.string.wi_rain));
+                    break;
+                case "thunderstorm":
+                    weatherIconView.setIconResource(this.context.getString(R.string.wi_thunderstorm));
+                    break;
+                case "snow":
+                    weatherIconView.setIconResource(this.context.getString(R.string.wi_snow));
+                    break;
+                case "mist":
+                    weatherIconView.setIconResource(this.context.getString(R.string.wi_fog));
+                    break;
+                default:
+                    weatherIconView.setIconResource(this.context.getString(R.string.wi_na));
+                    break;
+            }
+        }else {weatherIconView.setIconResource(this.context.getString(R.string.wi_na));}
 
     }
 }

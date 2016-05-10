@@ -19,6 +19,9 @@ import java.io.InputStream;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.util.List;
+import java.util.Timer;
+import java.util.TimerTask;
 
 public class BackgroundDataService extends Service {
 
@@ -28,7 +31,7 @@ public class BackgroundDataService extends Service {
     private static final String DBNAME = "weatherDb";
     private DatabaseManager dbManager;
     private boolean started = false;
-
+    private UrlTask mUrlTask;
 
     public class LocalBinder extends Binder {
         BackgroundDataService getService() {
@@ -37,55 +40,68 @@ public class BackgroundDataService extends Service {
     }
 
     public BackgroundDataService() {
-        DatabaseManager dManager = new DatabaseManager(this, DBNAME, null, 1);
+
     }
 
+
+    public WeatherInfo getCurrentWeather() {
+        if (!dbManager.getWeatherInfo().isEmpty()) {
+            return dbManager.getWeatherInfo().get(0);
+        }
+        return new WeatherInfo("NA", 404);
+    }
+
+    public List<WeatherInfo> getPastWeather() {
+        return dbManager.getWeatherInfo();
+    }
 
 
     @Override
     public void onCreate() {
         super.onCreate();
+        dbManager = new DatabaseManager(this, DBNAME, null, 1);
     }
 
-    @Override
-    public int onStartCommand(Intent intent, int flags, int startId) {
-        if (!started && intent != null) {
-            Log.d(TAG, "Background service started");
-            started = true;
-            new UrlTask().execute(API_STR);
-        }
-        return START_STICKY;
-    }
 
     @Override
     public IBinder onBind(Intent intent) {
-    return mBinder;
+
+        if (!started && intent != null) {
+            Log.d(TAG, "Background service started");
+            started = true;
+            mUrlTask = new UrlTask();
+            mUrlTask.execute(API_STR);
+        }
+        return mBinder;
 
     }
 
 
-    private class UrlTask extends AsyncTask<String, Void, String> {
+    private class UrlTask extends AsyncTask<String, Void, Void> {
+
+        private Timer timer = new Timer();
 
         @Override
-        protected String doInBackground(String... params) {
-            WeatherInfo wInfo = new WeatherInfo(urlCall(params[0]));
+        protected Void doInBackground(String... params) {
+
+            timer.schedule(new timerTasks(),0 , 5000 );
+            return null;
+        }
+    }
+
+
+    private class timerTasks extends TimerTask{
+
+        @Override
+        public void run() {
+            WeatherInfo wInfo = new WeatherInfo(urlCall(API_STR));
             dbManager.addWeatherInfo(wInfo);
-
-            return urlCall(params[0]);
         }
 
-        @Override
-        protected void onPostExecute(String s) {
-
-            super.onPostExecute(s);
-        }
-    }
-
+    private String urlCall(String ConncetionStr) {
     /* Note: documentation from:
     * http://developer.android.com/reference/java/net/HttpURLConnection.html#setRequestMethod(java.lang.String)
     * */
-    private String urlCall(String ConncetionStr) {
-
         HttpURLConnection urlConnection = null;
 
         try {
@@ -125,5 +141,6 @@ public class BackgroundDataService extends Service {
         }
     }
 
+    }
 }
 

@@ -32,10 +32,10 @@ public class DatabaseManager extends SQLiteOpenHelper {
     private static final String COMMA_SEP = ",";
     private static final String SQL_CREATE_ENTRIES = "CREATE TABLE "
             + Contract.WeatherInfoEntry.TABLE_NAME + " (" + Contract.WeatherInfoEntry.COLUMN_ID
-            + " LONG PRIMARY KEY" + Contract.WeatherInfoEntry.COLUMN_DESCRIPTION +
+            + " LONG PRIMARY KEY" + COMMA_SEP + Contract.WeatherInfoEntry.COLUMN_DESCRIPTION +
             TEXT_TYPE + COMMA_SEP + Contract.WeatherInfoEntry.COLUMN_TEMPERATURE +
             TEXT_TYPE + COMMA_SEP + Contract.WeatherInfoEntry.COLUMN_TIMESTAMP +
-            TEXT_TYPE + COMMA_SEP + " )";
+            TEXT_TYPE + " )";
 
     private static final String SQL_DELETE_ENTRIES = "DROP TABLE IF EXISTS " +
             Contract.WeatherInfoEntry.TABLE_NAME;
