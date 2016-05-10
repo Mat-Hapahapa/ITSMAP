@@ -15,21 +15,21 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Weather: Location (Todo: edit to Aarhuc/location)"
+        android:text="@string/weather_aarhus"
         android:id="@+id/CurrLocation"/>
 
     <com.github.pwittchen.weathericonview.WeatherIconView
         android:id="@+id/weatherImg"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        custom:weatherIconColor="@android:color/black"
+        custom:weatherIconColor="@color/colorAccent"
         custom:weatherIconResource="@string/wi_day_sunny_overcast"
         custom:weatherIconSize="100"
         android:layout_below="@+id/CurrLocation"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Current:"
+        android:text="@string/current"
         android:layout_toRightOf="@+id/weatherImg"
         android:layout_below="@+id/CurrLocation"
         android:id="@+id/CurrentText"/>
@@ -54,7 +54,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Past 24 hours:"
+        android:text="@string/past_24_hours"
         android:id="@+id/history"
         android:layout_below="@+id/weatherImg"/>
 

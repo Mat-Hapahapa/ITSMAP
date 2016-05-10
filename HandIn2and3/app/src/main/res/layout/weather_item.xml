@@ -8,10 +8,11 @@
     <com.github.pwittchen.weathericonview.WeatherIconView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        custom:weatherIconColor="@android:color/black"
+        custom:weatherIconColor="@color/colorAccent"
         custom:weatherIconResource="@string/wi_na"
         custom:weatherIconSize="40"
-        android:id="@+id/weatherIcon"/>
+        android:id="@+id/weatherIcon"
+        />
 
     <LinearLayout
         android:layout_width="wrap_content"
