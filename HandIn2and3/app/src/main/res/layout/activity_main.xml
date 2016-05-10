@@ -36,14 +36,12 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="tmpCloudy"
         android:layout_below="@+id/CurrentText"
         android:layout_toRightOf="@+id/weatherImg"
         android:id="@+id/weatherInfoText"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="tmp degrees"
         android:id="@+id/weatherDegreeText"
         android:layout_below="@+id/weatherInfoText"
         android:layout_toRightOf="@+id/weatherImg"
