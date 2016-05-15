@@ -3,6 +3,8 @@ package com.mikmat.auha30staff;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
+import android.text.Editable;
+import android.text.TextWatcher;
 import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -12,9 +14,21 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.EditText;
+import android.widget.ListView;
+
+import com.mikmat.auha30staff.Adapters.BabyListAdapter;
+import com.mikmat.auha30staff.Models.Baby;
+
+import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
+
+    private BabyListAdapter babyListAdapter;
+    private ListView babyListView;
+    private ArrayList<Baby> babyList;
+    private EditText searchField;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,6 +36,35 @@ public class MainActivity extends AppCompatActivity
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
+        //TODO: Populate with real data
+        babyList = new ArrayList<Baby>();
+        for (int i=0; i<20; i++) {
+            babyList.add(new Baby(i, "TestBaby" + String.valueOf(i)));
+        }
+        babyListAdapter = new BabyListAdapter(this, babyList);
+        babyListView = (ListView) findViewById(R.id.babyListView);
+        babyListView.setAdapter(babyListAdapter);
+
+
+        searchField = (EditText) findViewById(R.id.searchKey);
+        searchField.addTextChangedListener(new TextWatcher() {
+            @Override
+            public void beforeTextChanged(CharSequence s, int start, int count, int after) {
+
+            }
+
+            @Override
+            public void onTextChanged(CharSequence s, int start, int before, int count) {
+                MainActivity.this.babyListAdapter.getFilter().filter(s);
+            }
+
+            @Override
+            public void afterTextChanged(Editable s) {
+
+            }
+        });
+
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
@@ -98,4 +141,5 @@ public class MainActivity extends AppCompatActivity
         drawer.closeDrawer(GravityCompat.START);
         return true;
     }
+
 }
