@@ -15,6 +15,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ListView;
@@ -25,7 +26,7 @@ import com.mikmat.auha30staff.Models.Baby;
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity
-        implements NavigationView.OnNavigationItemSelectedListener {
+        implements NavigationView.OnNavigationItemSelectedListener, AdapterView.OnItemClickListener {
 
     private BabyListAdapter babyListAdapter;
     private ListView babyListView;
@@ -94,6 +95,8 @@ public class MainActivity extends AppCompatActivity
                 onAddBabbyPressed();
             }
         });
+
+        babyListView.setOnItemClickListener(this);
     }
 
     public void onAddBabbyPressed() {
@@ -158,4 +161,12 @@ public class MainActivity extends AppCompatActivity
         return true;
     }
 
+    @Override
+    public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+        Baby chosenOne = (Baby) babyListAdapter.getItem(position);
+
+        Intent intent = new Intent(this, BabyDetailActivity.class);
+        intent.putExtras(chosenOne);
+        startActivity(intent);
+    }
 }
