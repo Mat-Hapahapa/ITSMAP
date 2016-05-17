@@ -1,5 +1,6 @@
 package com.mikmat.auha30staff;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -14,6 +15,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ListView;
 
@@ -29,6 +31,7 @@ public class MainActivity extends AppCompatActivity
     private ListView babyListView;
     private ArrayList<Baby> babyList;
     private EditText searchField;
+    private Button buttonAddBaby;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -83,6 +86,19 @@ public class MainActivity extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+
+        buttonAddBaby = (Button) findViewById(R.id.button_add_baby);
+        buttonAddBaby.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                onAddBabbyPressed();
+            }
+        });
+    }
+
+    public void onAddBabbyPressed() {
+        Intent intent = new Intent(this, AddBabyActivity.class);
+        startActivity(intent);
     }
 
     @Override
