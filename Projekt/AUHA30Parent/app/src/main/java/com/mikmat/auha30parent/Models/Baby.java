@@ -8,9 +8,21 @@ import java.util.Date;
 public class Baby {
     private int ID;
     private String name;
+    private String gender;
     private Date birthday;
+    private String email;
+    private String caretaker;
 
     public Baby(){}
+
+    public Baby(int id, String name, String gender, Date birthday, String email, String caretaker){
+        this.ID = id;
+        this.name = name;
+        this.gender = gender;
+        this.birthday = birthday;
+        this.email = email;
+        this.caretaker = caretaker;
+    }
 
     public int getID() {
         return ID;
@@ -34,5 +46,21 @@ public class Baby {
 
     public void setBirthday(Date birthday) {
         this.birthday = birthday;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public String getCaretaker() {
+        return caretaker;
+    }
+
+    public void setCaretaker(String caretaker) {
+        this.caretaker = caretaker;
     }
 }
