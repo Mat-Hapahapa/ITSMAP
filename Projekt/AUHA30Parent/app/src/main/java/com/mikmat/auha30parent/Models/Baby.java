@@ -1,5 +1,7 @@
 package com.mikmat.auha30parent.Models;
 
+import com.firebase.client.Firebase;
+
 import java.util.Date;
 
 /**
@@ -12,6 +14,7 @@ public class Baby {
     private Date birthday;
     private String email;
     private String caretaker;
+    private String firebaseRef;
 
     public Baby(){}
 
@@ -62,5 +65,13 @@ public class Baby {
 
     public void setCaretaker(String caretaker) {
         this.caretaker = caretaker;
+    }
+
+    public String getFirebaseRef() {
+        return firebaseRef;
+    }
+
+    public void setFirebaseRef(String firebaseRef) {
+        this.firebaseRef = firebaseRef;
     }
 }

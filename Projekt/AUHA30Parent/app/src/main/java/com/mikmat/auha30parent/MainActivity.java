@@ -5,6 +5,7 @@ import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
+import android.support.v4.widget.TextViewCompat;
 import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -15,12 +16,22 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Button;
+import android.widget.TextView;
 import android.widget.Toast;
+
+import com.firebase.client.DataSnapshot;
+import com.firebase.client.Firebase;
+import com.firebase.client.FirebaseError;
+import com.firebase.client.ValueEventListener;
+import com.mikmat.auha30parent.Helpers.FirebaseHelper;
+import com.mikmat.auha30parent.Models.Baby;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
     static final int LOGIN_RESULT = 100;
+    private FirebaseHelper fbtmp;
+    private Baby thisBaby;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,17 +40,21 @@ public class MainActivity extends AppCompatActivity
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        if (isFirstUse()) {
-            Intent loginIntent = new Intent(this, LoginActivity.class);
-            startActivityForResult(loginIntent, LOGIN_RESULT);
-        }
+        fbtmp = new FirebaseHelper(this);
+
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
+                  Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
+                         .setAction("Action", null).show();
+            /*
+                     Baby tmpBaby = new Baby();
+                     tmpBaby.setID(123);
+                    tmpBaby.setName("Test2");
+                     fbtmp.CreateBaby(tmpBaby);
+                     */
             }
         });
 
@@ -56,6 +71,20 @@ public class MainActivity extends AppCompatActivity
     @Override
     protected void onResume() {
         super.onResume();
+        isLoggedIn();
+        SharedPreferences sharedPreferences = getSharedPreferences(getString(R.string.sharedPreferences), MODE_PRIVATE);
+
+        new Firebase(sharedPreferences.getString(getString(R.string.This_Baby), "")).addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(DataSnapshot snapshot) {
+                thisBaby = snapshot.getValue(Baby.class);
+            }
+
+            @Override
+            public void onCancelled(FirebaseError firebaseError) {
+                System.out.println("The read failed: " + firebaseError.getMessage());
+            }
+        });
     }
 
     @Override
@@ -121,10 +150,11 @@ public class MainActivity extends AppCompatActivity
             case LOGIN_RESULT:
                 if (resultCode == RESULT_OK) {
                     Bundle extra = data.getExtras();
-                    String key = extra.getString(getString(R.string.KEY_EXTRA));
 
-                    //TODO: Get data from firebase with key
-                    Toast.makeText(this, key, Toast.LENGTH_LONG).show();
+                    SharedPreferences sharedPreferences = getSharedPreferences(getString(R.string.sharedPreferences), MODE_PRIVATE);
+                    SharedPreferences.Editor editor = sharedPreferences.edit();
+                    editor.putString(getString(R.string.FbBabyRef), extra.getString(getString(R.string.This_Baby)));
+                    editor.commit();
                 }
             default:
                 super.onActivityResult(requestCode, resultCode, data);
@@ -133,19 +163,11 @@ public class MainActivity extends AppCompatActivity
 
     }
 
-    private boolean isFirstUse() {
+    private void isLoggedIn() {
         SharedPreferences sharedPreferences = getSharedPreferences(getString(R.string.sharedPreferences), MODE_PRIVATE);
-        if (sharedPreferences.getBoolean(getString(R.string.first_time_use), true)) {
-            SharedPreferences.Editor editor = sharedPreferences.edit();
-            editor.putBoolean(getString(R.string.first_time_use), false);
-
-            editor.commit();
-            return true;
-        } else {
-            return false;
+        if (!sharedPreferences.getBoolean(getString(R.string.LOGGED_IN), false)) {
+            Intent loginIntent = new Intent(this, LoginActivity.class);
+            startActivityForResult(loginIntent, LOGIN_RESULT);
         }
-
     }
-
-    ;
 }

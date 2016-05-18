@@ -7,581 +7,197 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9973200d-5ccf-4bd6-945b-a54ce2729603" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Projekt/MyApplication/app/.gitignore" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../HandIn2and3/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/bundles/debug/instant-run/AndroidManifest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/classes/debug/android/support/design/R$anim.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/classes/debug/android/support/design/R$attr.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/classes/debug/android/support/design/R$bool.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/classes/debug/android/support/design/R$color.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/classes/debug/android/support/design/R$dimen.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/classes/debug/android/support/design/R$drawable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/classes/debug/android/support/design/R$id.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/classes/debug/android/support/design/R$integer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/classes/debug/android/support/design/R$layout.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/classes/debug/android/support/design/R$string.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/classes/debug/android/support/design/R$style.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/classes/debug/android/support/design/R$styleable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/classes/debug/android/support/design/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$anim.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$attr.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$bool.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$color.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$dimen.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$drawable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$id.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$integer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$layout.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$string.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$style.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$styleable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/classes/debug/android/support/v7/appcompat/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/classes/debug/android/support/v7/recyclerview/R$attr.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/classes/debug/android/support/v7/recyclerview/R$dimen.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/classes/debug/android/support/v7/recyclerview/R$id.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/classes/debug/android/support/v7/recyclerview/R$styleable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/classes/debug/android/support/v7/recyclerview/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/classes/debug/com/mikmat/auha30parent/BuildConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/classes/debug/com/mikmat/auha30parent/Helpers/FirebaseHelper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/classes/debug/com/mikmat/auha30parent/LoginActivity$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/classes/debug/com/mikmat/auha30parent/LoginActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/classes/debug/com/mikmat/auha30parent/MainActivity$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/classes/debug/com/mikmat/auha30parent/MainActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/classes/debug/com/mikmat/auha30parent/Models/Baby.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/classes/debug/com/mikmat/auha30parent/R$anim.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/classes/debug/com/mikmat/auha30parent/R$attr.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/classes/debug/com/mikmat/auha30parent/R$bool.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/classes/debug/com/mikmat/auha30parent/R$color.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/classes/debug/com/mikmat/auha30parent/R$dimen.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/classes/debug/com/mikmat/auha30parent/R$drawable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/classes/debug/com/mikmat/auha30parent/R$id.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/classes/debug/com/mikmat/auha30parent/R$integer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/classes/debug/com/mikmat/auha30parent/R$layout.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/classes/debug/com/mikmat/auha30parent/R$menu.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/classes/debug/com/mikmat/auha30parent/R$mipmap.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/classes/debug/com/mikmat/auha30parent/R$string.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/classes/debug/com/mikmat/auha30parent/R$style.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/classes/debug/com/mikmat/auha30parent/R$styleable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/classes/debug/com/mikmat/auha30parent/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/incremental-verifier/debug/android/support/design/R$anim.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/incremental-verifier/debug/android/support/design/R$attr.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/incremental-verifier/debug/android/support/design/R$bool.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/incremental-verifier/debug/android/support/design/R$color.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/incremental-verifier/debug/android/support/design/R$dimen.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/incremental-verifier/debug/android/support/design/R$drawable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/incremental-verifier/debug/android/support/design/R$id.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/incremental-verifier/debug/android/support/design/R$integer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/incremental-verifier/debug/android/support/design/R$layout.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/incremental-verifier/debug/android/support/design/R$string.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/incremental-verifier/debug/android/support/design/R$style.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/incremental-verifier/debug/android/support/design/R$styleable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/incremental-verifier/debug/android/support/design/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/incremental-verifier/debug/android/support/v7/appcompat/R$anim.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/incremental-verifier/debug/android/support/v7/appcompat/R$attr.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/incremental-verifier/debug/android/support/v7/appcompat/R$bool.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/incremental-verifier/debug/android/support/v7/appcompat/R$color.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/incremental-verifier/debug/android/support/v7/appcompat/R$dimen.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/incremental-verifier/debug/android/support/v7/appcompat/R$drawable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/incremental-verifier/debug/android/support/v7/appcompat/R$id.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/incremental-verifier/debug/android/support/v7/appcompat/R$integer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/incremental-verifier/debug/android/support/v7/appcompat/R$layout.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/incremental-verifier/debug/android/support/v7/appcompat/R$string.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/incremental-verifier/debug/android/support/v7/appcompat/R$style.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/incremental-verifier/debug/android/support/v7/appcompat/R$styleable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/incremental-verifier/debug/android/support/v7/appcompat/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/incremental-verifier/debug/android/support/v7/recyclerview/R$attr.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/incremental-verifier/debug/android/support/v7/recyclerview/R$dimen.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/incremental-verifier/debug/android/support/v7/recyclerview/R$id.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/incremental-verifier/debug/android/support/v7/recyclerview/R$styleable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/incremental-verifier/debug/android/support/v7/recyclerview/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/incremental-verifier/debug/com/mikmat/auha30parent/BuildConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/incremental-verifier/debug/com/mikmat/auha30parent/Helpers/FirebaseHelper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/incremental-verifier/debug/com/mikmat/auha30parent/LoginActivity$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/incremental-verifier/debug/com/mikmat/auha30parent/LoginActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/incremental-verifier/debug/com/mikmat/auha30parent/MainActivity$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/incremental-verifier/debug/com/mikmat/auha30parent/MainActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/incremental-verifier/debug/com/mikmat/auha30parent/Models/Baby.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/incremental-verifier/debug/com/mikmat/auha30parent/R$anim.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/incremental-verifier/debug/com/mikmat/auha30parent/R$attr.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/incremental-verifier/debug/com/mikmat/auha30parent/R$bool.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/incremental-verifier/debug/com/mikmat/auha30parent/R$color.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/incremental-verifier/debug/com/mikmat/auha30parent/R$dimen.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/incremental-verifier/debug/com/mikmat/auha30parent/R$drawable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/incremental-verifier/debug/com/mikmat/auha30parent/R$id.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/incremental-verifier/debug/com/mikmat/auha30parent/R$integer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/incremental-verifier/debug/com/mikmat/auha30parent/R$layout.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/incremental-verifier/debug/com/mikmat/auha30parent/R$menu.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/incremental-verifier/debug/com/mikmat/auha30parent/R$mipmap.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/incremental-verifier/debug/com/mikmat/auha30parent/R$string.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/incremental-verifier/debug/com/mikmat/auha30parent/R$style.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/incremental-verifier/debug/com/mikmat/auha30parent/R$styleable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/incremental-verifier/debug/com/mikmat/auha30parent/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/instant-run-support/debug/classes.zip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/instant-run-support/debug/coldswap.marker" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/instant-run-support/debug/manifest.crc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/instant-run-support/debug/package.marker" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/instant-run-support/debug/reload-changes.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/instant-run-support/debug/resources.zip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/restart-dex/debug/build-info.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-23.3.0_4c850b17dfa3f13a0b05981d2d248b7bcb282870/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-23.3.0_039abc56c845c7615a39382df64361cb9c108ae3/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-23.3.0_e806fac1ce1cb0d695e651e147a4ca161062fc8a/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-23.3.0_81b318d41ecfeb4378fc8ee3ae76f9f49394611a/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.3.0_f5067d3dfd7a98f4aba68c609bb69d7885857406/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-23.3.0_5d56c7bf366393a163424bb3b933de67052ab788/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/dex/debug/folders/1000/10/firebase-client-android-2.5.2_a15c340247180e2dc59652e4f5873f20df4a35ff/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/dex/debug/folders/1000/10/firebase-client-jvm-2.5.2_68e17f47804961cd0d33e858df61ff609c65f367/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_d653681ec6a463eaf35975eb1c784e45726d673a/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_ce4666408db4123002adba28c863040ac715f910/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.3.0_e1f0097c431b40ba03de0d36d16f29871f77daf3/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/dex/debug/folders/1000/10/jackson-annotations-2.2.2_31bc53975b0c6bee36678398872ab7b48fed746f/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/dex/debug/folders/1000/10/jackson-core-2.2.2_6a1f38af8f3307271def21eaff44d90cbd6b6fbc/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/dex/debug/folders/1000/10/jackson-databind-2.2.2_340ee2599b24c694688087d025808b061d27db68/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.3.0_e19c41adb24c9621434e1be8bd4489bdc528b052/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/dex/debug/folders/1000/10/tubesock-0.0.12_cc016cb84ee9da1a103500955fc6204374f3ca02/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_0/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_1/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_2/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_3/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_5/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_6/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_8/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_9/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/design/R$anim.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/design/R$attr.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/design/R$bool.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/design/R$color.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/design/R$dimen.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/design/R$drawable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/design/R$id.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/design/R$integer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/design/R$layout.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/design/R$string.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/design/R$style.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/design/R$styleable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/design/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/v7/appcompat/R$anim.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/v7/appcompat/R$attr.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/v7/appcompat/R$bool.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/v7/appcompat/R$color.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/v7/appcompat/R$dimen.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/v7/appcompat/R$drawable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/v7/appcompat/R$id.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/v7/appcompat/R$integer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/v7/appcompat/R$layout.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/v7/appcompat/R$string.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/v7/appcompat/R$style.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/v7/appcompat/R$styleable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/v7/appcompat/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/v7/recyclerview/R$attr.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/v7/recyclerview/R$dimen.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/v7/recyclerview/R$id.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/v7/recyclerview/R$styleable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/v7/recyclerview/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/mikmat/auha30parent/BuildConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/mikmat/auha30parent/Helpers/FirebaseHelper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/mikmat/auha30parent/LoginActivity$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/mikmat/auha30parent/LoginActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/mikmat/auha30parent/MainActivity$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/mikmat/auha30parent/MainActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/mikmat/auha30parent/Models/Baby.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/mikmat/auha30parent/R$anim.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/mikmat/auha30parent/R$attr.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/mikmat/auha30parent/R$bool.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/mikmat/auha30parent/R$color.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/mikmat/auha30parent/R$dimen.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/mikmat/auha30parent/R$drawable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/mikmat/auha30parent/R$id.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/mikmat/auha30parent/R$integer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/mikmat/auha30parent/R$layout.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/mikmat/auha30parent/R$menu.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/mikmat/auha30parent/R$mipmap.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/mikmat/auha30parent/R$string.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/mikmat/auha30parent/R$style.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/mikmat/auha30parent/R$styleable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/mikmat/auha30parent/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/android/support/design/R$anim.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/android/support/design/R$attr.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/android/support/design/R$bool.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/android/support/design/R$color.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/android/support/design/R$dimen.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/android/support/design/R$drawable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/android/support/design/R$id.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/android/support/design/R$integer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/android/support/design/R$layout.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/android/support/design/R$string.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/android/support/design/R$style.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/android/support/design/R$styleable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/android/support/design/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/android/tools/fd/dummy/slice_0.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/mikmat/auha30parent/Models/Baby.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_1/com/android/tools/fd/dummy/slice_1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_1/com/mikmat/auha30parent/Helpers/FirebaseHelper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/android/support/v7/appcompat/R$anim.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/android/support/v7/appcompat/R$attr.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/android/support/v7/appcompat/R$bool.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/android/support/v7/appcompat/R$color.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/android/support/v7/appcompat/R$dimen.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/android/support/v7/appcompat/R$drawable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/android/support/v7/appcompat/R$id.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/android/support/v7/appcompat/R$integer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/android/support/v7/appcompat/R$layout.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/android/support/v7/appcompat/R$string.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/android/support/v7/appcompat/R$style.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/android/support/v7/appcompat/R$styleable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/android/support/v7/appcompat/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/android/tools/fd/dummy/slice_2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/mikmat/auha30parent/BuildConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/mikmat/auha30parent/LoginActivity$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/mikmat/auha30parent/LoginActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/mikmat/auha30parent/MainActivity$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/mikmat/auha30parent/MainActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/mikmat/auha30parent/R$anim.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/mikmat/auha30parent/R$attr.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/mikmat/auha30parent/R$bool.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/mikmat/auha30parent/R$color.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/mikmat/auha30parent/R$dimen.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/mikmat/auha30parent/R$drawable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/mikmat/auha30parent/R$id.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/mikmat/auha30parent/R$integer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/mikmat/auha30parent/R$layout.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/mikmat/auha30parent/R$menu.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/mikmat/auha30parent/R$mipmap.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/mikmat/auha30parent/R$string.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/mikmat/auha30parent/R$style.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/mikmat/auha30parent/R$styleable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/mikmat/auha30parent/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/android/tools/fd/dummy/slice_3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/android/tools/fd/dummy/slice_4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/com/android/tools/fd/dummy/slice_5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/android/tools/fd/dummy/slice_6.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/android/support/v7/recyclerview/R$attr.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/android/support/v7/recyclerview/R$dimen.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/android/support/v7/recyclerview/R$id.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/android/support/v7/recyclerview/R$styleable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/android/support/v7/recyclerview/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/android/tools/fd/dummy/slice_7.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/android/tools/fd/dummy/slice_8.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_9/com/android/tools/fd/dummy/slice_9.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/mergeJavaRes/debug/jars/2/1f/main.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/outputs/apk/app-debug-unaligned.apk" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/outputs/apk/app-debug.apk" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/build/intermediates/dex-cache/cache.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/.idea/vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/blame/res/debug/multi/color.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/bundles/debug/instant-run/AndroidManifest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/classes/debug/android/support/design/R$anim.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/classes/debug/android/support/design/R$attr.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/classes/debug/android/support/design/R$bool.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/classes/debug/android/support/design/R$color.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/classes/debug/android/support/design/R$dimen.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/classes/debug/android/support/design/R$drawable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/classes/debug/android/support/design/R$id.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/classes/debug/android/support/design/R$integer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/classes/debug/android/support/design/R$layout.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/classes/debug/android/support/design/R$string.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/classes/debug/android/support/design/R$style.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/classes/debug/android/support/design/R$styleable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/classes/debug/android/support/design/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$anim.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$attr.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$bool.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$color.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$dimen.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$drawable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$id.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$integer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$layout.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$string.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$style.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$styleable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/classes/debug/android/support/v7/appcompat/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/classes/debug/android/support/v7/recyclerview/R$attr.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/classes/debug/android/support/v7/recyclerview/R$dimen.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/classes/debug/android/support/v7/recyclerview/R$id.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/classes/debug/android/support/v7/recyclerview/R$styleable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/classes/debug/android/support/v7/recyclerview/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/classes/debug/com/mikmat/auha30staff/Adapters/BabyListAdapter$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/classes/debug/com/mikmat/auha30staff/Adapters/BabyListAdapter$ItemFilter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/classes/debug/com/mikmat/auha30staff/Adapters/BabyListAdapter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/classes/debug/com/mikmat/auha30staff/BuildConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/classes/debug/com/mikmat/auha30staff/MainActivity$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/classes/debug/com/mikmat/auha30staff/MainActivity$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/classes/debug/com/mikmat/auha30staff/MainActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/classes/debug/com/mikmat/auha30staff/Models/Baby.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/classes/debug/com/mikmat/auha30staff/R$anim.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/classes/debug/com/mikmat/auha30staff/R$attr.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/classes/debug/com/mikmat/auha30staff/R$bool.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/classes/debug/com/mikmat/auha30staff/R$color.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/classes/debug/com/mikmat/auha30staff/R$dimen.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/classes/debug/com/mikmat/auha30staff/R$drawable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/classes/debug/com/mikmat/auha30staff/R$id.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/classes/debug/com/mikmat/auha30staff/R$integer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/classes/debug/com/mikmat/auha30staff/R$layout.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/classes/debug/com/mikmat/auha30staff/R$menu.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/classes/debug/com/mikmat/auha30staff/R$mipmap.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/classes/debug/com/mikmat/auha30staff/R$string.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/classes/debug/com/mikmat/auha30staff/R$style.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/classes/debug/com/mikmat/auha30staff/R$styleable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/classes/debug/com/mikmat/auha30staff/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/incremental-verifier/debug/android/support/design/R$anim.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/incremental-verifier/debug/android/support/design/R$attr.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/incremental-verifier/debug/android/support/design/R$bool.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/incremental-verifier/debug/android/support/design/R$color.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/incremental-verifier/debug/android/support/design/R$dimen.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/incremental-verifier/debug/android/support/design/R$drawable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/incremental-verifier/debug/android/support/design/R$id.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/incremental-verifier/debug/android/support/design/R$integer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/incremental-verifier/debug/android/support/design/R$layout.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/incremental-verifier/debug/android/support/design/R$string.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/incremental-verifier/debug/android/support/design/R$style.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/incremental-verifier/debug/android/support/design/R$styleable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/incremental-verifier/debug/android/support/design/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/incremental-verifier/debug/android/support/v7/appcompat/R$anim.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/incremental-verifier/debug/android/support/v7/appcompat/R$attr.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/incremental-verifier/debug/android/support/v7/appcompat/R$bool.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/incremental-verifier/debug/android/support/v7/appcompat/R$color.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/incremental-verifier/debug/android/support/v7/appcompat/R$dimen.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/incremental-verifier/debug/android/support/v7/appcompat/R$drawable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/incremental-verifier/debug/android/support/v7/appcompat/R$id.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/incremental-verifier/debug/android/support/v7/appcompat/R$integer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/incremental-verifier/debug/android/support/v7/appcompat/R$layout.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/incremental-verifier/debug/android/support/v7/appcompat/R$string.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/incremental-verifier/debug/android/support/v7/appcompat/R$style.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/incremental-verifier/debug/android/support/v7/appcompat/R$styleable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/incremental-verifier/debug/android/support/v7/appcompat/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/incremental-verifier/debug/android/support/v7/recyclerview/R$attr.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/incremental-verifier/debug/android/support/v7/recyclerview/R$dimen.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/incremental-verifier/debug/android/support/v7/recyclerview/R$id.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/incremental-verifier/debug/android/support/v7/recyclerview/R$styleable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/incremental-verifier/debug/android/support/v7/recyclerview/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/incremental-verifier/debug/com/mikmat/auha30staff/Adapters/BabyListAdapter$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/incremental-verifier/debug/com/mikmat/auha30staff/Adapters/BabyListAdapter$ItemFilter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/incremental-verifier/debug/com/mikmat/auha30staff/Adapters/BabyListAdapter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/incremental-verifier/debug/com/mikmat/auha30staff/BuildConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/incremental-verifier/debug/com/mikmat/auha30staff/MainActivity$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/incremental-verifier/debug/com/mikmat/auha30staff/MainActivity$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/incremental-verifier/debug/com/mikmat/auha30staff/MainActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/incremental-verifier/debug/com/mikmat/auha30staff/Models/Baby.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/incremental-verifier/debug/com/mikmat/auha30staff/R$anim.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/incremental-verifier/debug/com/mikmat/auha30staff/R$attr.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/incremental-verifier/debug/com/mikmat/auha30staff/R$bool.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/incremental-verifier/debug/com/mikmat/auha30staff/R$color.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/incremental-verifier/debug/com/mikmat/auha30staff/R$dimen.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/incremental-verifier/debug/com/mikmat/auha30staff/R$drawable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/incremental-verifier/debug/com/mikmat/auha30staff/R$id.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/incremental-verifier/debug/com/mikmat/auha30staff/R$integer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/incremental-verifier/debug/com/mikmat/auha30staff/R$layout.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/incremental-verifier/debug/com/mikmat/auha30staff/R$menu.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/incremental-verifier/debug/com/mikmat/auha30staff/R$mipmap.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/incremental-verifier/debug/com/mikmat/auha30staff/R$string.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/incremental-verifier/debug/com/mikmat/auha30staff/R$style.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/incremental-verifier/debug/com/mikmat/auha30staff/R$styleable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/incremental-verifier/debug/com/mikmat/auha30staff/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/instant-run-support/debug/classes.zip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/instant-run-support/debug/coldswap.marker" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/instant-run-support/debug/manifest.crc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/instant-run-support/debug/package.marker" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/instant-run-support/debug/reload-changes.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/instant-run-support/debug/resources.zip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/restart-dex/debug/build-info.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-23.3.0_6ad6c08d9738767bcfe5a47e6ce5a7a9cbb148f8/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-23.3.0_975656353c1e7ff449ac5a34a626325657c7cdf1/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-23.3.0_2f48911b40f206b323f622687ebec88515b32a84/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-23.3.0_18b4a871f361bd2f35c963be4168a1323c190182/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.3.0_760b477c62cc39a35df87936340c1e517d5d921d/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-23.3.0_f2136c0405a0c585af8a4f8c5a2f3c3e436164d1/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_7d8240381278fbbe37504e1b54669a0f8bcf66f3/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_eecfe99005c01b22a948ff9532bccd14fd1c4563/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.3.0_05d9dc25a9660f203fcb15ace9ebbfdb099d00e9/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.3.0_e19c41adb24c9621434e1be8bd4489bdc528b052/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_0/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_1/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_2/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_3/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_5/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_6/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_8/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_9/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/design/R$anim.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/design/R$attr.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/design/R$bool.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/design/R$color.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/design/R$dimen.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/design/R$drawable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/design/R$id.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/design/R$integer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/design/R$layout.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/design/R$string.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/design/R$style.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/design/R$styleable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/design/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/v7/appcompat/R$anim.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/v7/appcompat/R$attr.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/v7/appcompat/R$bool.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/v7/appcompat/R$color.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/v7/appcompat/R$dimen.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/v7/appcompat/R$drawable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/v7/appcompat/R$id.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/v7/appcompat/R$integer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/v7/appcompat/R$layout.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/v7/appcompat/R$string.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/v7/appcompat/R$style.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/v7/appcompat/R$styleable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/v7/appcompat/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/v7/recyclerview/R$attr.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/v7/recyclerview/R$dimen.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/v7/recyclerview/R$id.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/v7/recyclerview/R$styleable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/v7/recyclerview/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/mikmat/auha30staff/Adapters/BabyListAdapter$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/mikmat/auha30staff/Adapters/BabyListAdapter$ItemFilter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/mikmat/auha30staff/Adapters/BabyListAdapter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/mikmat/auha30staff/BuildConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/mikmat/auha30staff/MainActivity$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/mikmat/auha30staff/MainActivity$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/mikmat/auha30staff/MainActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/mikmat/auha30staff/Models/Baby.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/mikmat/auha30staff/R$anim.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/mikmat/auha30staff/R$attr.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/mikmat/auha30staff/R$bool.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/mikmat/auha30staff/R$color.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/mikmat/auha30staff/R$dimen.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/mikmat/auha30staff/R$drawable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/mikmat/auha30staff/R$id.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/mikmat/auha30staff/R$integer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/mikmat/auha30staff/R$layout.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/mikmat/auha30staff/R$menu.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/mikmat/auha30staff/R$mipmap.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/mikmat/auha30staff/R$string.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/mikmat/auha30staff/R$style.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/mikmat/auha30staff/R$styleable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/mikmat/auha30staff/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/android/tools/fd/runtime/AppPatchesLoaderImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/mikmat/auha30staff/Adapters/BabyListAdapter$ItemFilter$override.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/mikmat/auha30staff/Adapters/BabyListAdapter$override.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/mikmat/auha30staff/R$string$override.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/android/support/design/R$anim.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/android/support/design/R$attr.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/android/support/design/R$bool.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/android/support/design/R$color.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/android/support/design/R$dimen.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/android/support/design/R$drawable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/android/support/design/R$id.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/android/support/design/R$integer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/android/support/design/R$layout.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/android/support/design/R$string.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/android/support/design/R$style.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/android/support/design/R$styleable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/android/support/design/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/android/tools/fd/dummy/slice_0.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_1/com/android/tools/fd/dummy/slice_1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/android/support/v7/appcompat/R$anim.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/android/support/v7/appcompat/R$attr.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/android/support/v7/appcompat/R$bool.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/android/support/v7/appcompat/R$color.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/android/support/v7/appcompat/R$dimen.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/android/support/v7/appcompat/R$drawable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/android/support/v7/appcompat/R$id.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/android/support/v7/appcompat/R$integer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/android/support/v7/appcompat/R$layout.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/android/support/v7/appcompat/R$string.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/android/support/v7/appcompat/R$style.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/android/support/v7/appcompat/R$styleable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/android/support/v7/appcompat/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/android/tools/fd/dummy/slice_2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/android/tools/fd/dummy/slice_3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/buildId.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/android/tools/fd/dummy/slice_4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/mikmat/auha30staff/Adapters/BabyListAdapter$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/mikmat/auha30staff/Adapters/BabyListAdapter$ItemFilter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/mikmat/auha30staff/Adapters/BabyListAdapter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/com/android/tools/fd/dummy/slice_5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/android/tools/fd/dummy/slice_6.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/android/support/v7/recyclerview/R$attr.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/android/support/v7/recyclerview/R$dimen.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/android/support/v7/recyclerview/R$id.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/android/support/v7/recyclerview/R$styleable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/android/support/v7/recyclerview/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/android/tools/fd/dummy/slice_7.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/buildId.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/android/tools/fd/dummy/slice_8.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/mikmat/auha30staff/BuildConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/mikmat/auha30staff/MainActivity$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/mikmat/auha30staff/MainActivity$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/mikmat/auha30staff/MainActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/mikmat/auha30staff/Models/Baby.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/mikmat/auha30staff/R$anim.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/mikmat/auha30staff/R$attr.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/mikmat/auha30staff/R$bool.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/mikmat/auha30staff/R$color.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/mikmat/auha30staff/R$dimen.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/mikmat/auha30staff/R$drawable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/mikmat/auha30staff/R$id.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/mikmat/auha30staff/R$integer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/mikmat/auha30staff/R$layout.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/mikmat/auha30staff/R$menu.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/mikmat/auha30staff/R$mipmap.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/mikmat/auha30staff/R$string.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/mikmat/auha30staff/R$style.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/mikmat/auha30staff/R$styleable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/mikmat/auha30staff/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_9/com/android/tools/fd/dummy/slice_9.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/outputs/apk/app-debug-unaligned.apk" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/outputs/apk/app-debug.apk" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/build/intermediates/dex-cache/cache.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/cache.properties.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/outputFileStates.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/generated/mockable-android-23.jar" afterPath="$PROJECT_DIR$/build/generated/mockable-android-23.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../HandIn2and3/.gradle/2.10/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/../HandIn2and3/.gradle/2.10/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/.gradle/2.10/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/.gradle/2.10/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/.gradle/2.10/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/.gradle/2.10/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/.gradle/2.10/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/.gradle/2.10/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/.gradle/2.10/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/.gradle/2.10/taskArtifacts/outputFileStates.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/.gradle/2.10/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/.gradle/2.10/taskArtifacts/taskArtifacts.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/classes/debug/android/support/design/R$id.class" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/classes/debug/android/support/design/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/classes/debug/android/support/design/R$string.class" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/classes/debug/android/support/design/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$id.class" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/classes/debug/com/mikmat/auha30parent/Helpers/FirebaseHelper.class" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/classes/debug/com/mikmat/auha30parent/Helpers/FirebaseHelper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/classes/debug/com/mikmat/auha30parent/LoginActivity$1.class" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/classes/debug/com/mikmat/auha30parent/LoginActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/classes/debug/com/mikmat/auha30parent/LoginActivity.class" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/classes/debug/com/mikmat/auha30parent/LoginActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/classes/debug/com/mikmat/auha30parent/MainActivity$1.class" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/classes/debug/com/mikmat/auha30parent/MainActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/classes/debug/com/mikmat/auha30parent/MainActivity.class" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/classes/debug/com/mikmat/auha30parent/MainActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/classes/debug/com/mikmat/auha30parent/R$id.class" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/classes/debug/com/mikmat/auha30parent/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/classes/debug/com/mikmat/auha30parent/R$integer.class" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/classes/debug/com/mikmat/auha30parent/R$integer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/classes/debug/com/mikmat/auha30parent/R$layout.class" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/classes/debug/com/mikmat/auha30parent/R$layout.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/classes/debug/com/mikmat/auha30parent/R$menu.class" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/classes/debug/com/mikmat/auha30parent/R$menu.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/classes/debug/com/mikmat/auha30parent/R$mipmap.class" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/classes/debug/com/mikmat/auha30parent/R$mipmap.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/classes/debug/com/mikmat/auha30parent/R$string.class" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/classes/debug/com/mikmat/auha30parent/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/classes/debug/com/mikmat/auha30parent/R$style.class" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/classes/debug/com/mikmat/auha30parent/R$style.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/classes/debug/com/mikmat/auha30parent/R$styleable.class" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/classes/debug/com/mikmat/auha30parent/R$styleable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/incremental-verifier/debug/android/support/design/R$id.class" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/incremental-verifier/debug/android/support/design/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/incremental-verifier/debug/android/support/design/R$string.class" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/incremental-verifier/debug/android/support/design/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/incremental-verifier/debug/android/support/v7/appcompat/R$id.class" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/incremental-verifier/debug/android/support/v7/appcompat/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/incremental-verifier/debug/com/mikmat/auha30parent/Helpers/FirebaseHelper.class" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/incremental-verifier/debug/com/mikmat/auha30parent/Helpers/FirebaseHelper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/incremental-verifier/debug/com/mikmat/auha30parent/LoginActivity$1.class" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/incremental-verifier/debug/com/mikmat/auha30parent/LoginActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/incremental-verifier/debug/com/mikmat/auha30parent/LoginActivity.class" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/incremental-verifier/debug/com/mikmat/auha30parent/LoginActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/incremental-verifier/debug/com/mikmat/auha30parent/MainActivity$1.class" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/incremental-verifier/debug/com/mikmat/auha30parent/MainActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/incremental-verifier/debug/com/mikmat/auha30parent/MainActivity.class" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/incremental-verifier/debug/com/mikmat/auha30parent/MainActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/incremental-verifier/debug/com/mikmat/auha30parent/Models/Baby.class" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/incremental-verifier/debug/com/mikmat/auha30parent/Models/Baby.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/incremental-verifier/debug/com/mikmat/auha30parent/R$id.class" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/incremental-verifier/debug/com/mikmat/auha30parent/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/incremental-verifier/debug/com/mikmat/auha30parent/R$integer.class" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/incremental-verifier/debug/com/mikmat/auha30parent/R$integer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/incremental-verifier/debug/com/mikmat/auha30parent/R$layout.class" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/incremental-verifier/debug/com/mikmat/auha30parent/R$layout.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/incremental-verifier/debug/com/mikmat/auha30parent/R$menu.class" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/incremental-verifier/debug/com/mikmat/auha30parent/R$menu.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/incremental-verifier/debug/com/mikmat/auha30parent/R$mipmap.class" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/incremental-verifier/debug/com/mikmat/auha30parent/R$mipmap.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/incremental-verifier/debug/com/mikmat/auha30parent/R$string.class" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/incremental-verifier/debug/com/mikmat/auha30parent/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/incremental-verifier/debug/com/mikmat/auha30parent/R$style.class" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/incremental-verifier/debug/com/mikmat/auha30parent/R$style.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/incremental-verifier/debug/com/mikmat/auha30parent/R$styleable.class" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/incremental-verifier/debug/com/mikmat/auha30parent/R$styleable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/instant-run-support/debug/classes.zip" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/instant-run-support/debug/classes.zip" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/instant-run-support/debug/resources.zip" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/instant-run-support/debug/resources.zip" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/res/resources-debug-androidTest.ap_" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/res/resources-debug-androidTest.ap_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/res/resources-debug.ap_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/build/generated/mockable-android-23.jar" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/build/generated/mockable-android-23.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/.gradle/2.10/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Staff/.gradle/2.10/taskArtifacts/cache.properties.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/.gradle/2.10/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Staff/.gradle/2.10/taskArtifacts/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/.gradle/2.10/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Staff/.gradle/2.10/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/.gradle/2.10/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Staff/.gradle/2.10/taskArtifacts/outputFileStates.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/.gradle/2.10/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Staff/.gradle/2.10/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/res/resources-debug-androidTest.ap_" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/res/resources-debug-androidTest.ap_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/res/resources-debug.ap_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/build/generated/mockable-android-23.jar" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Staff/build/generated/mockable-android-23.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_0/classes.dex" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_0/classes.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_1/classes.dex" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_1/classes.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_2/classes.dex" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_2/classes.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7/classes.dex" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7/classes.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/design/R$anim.class" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/design/R$anim.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/design/R$attr.class" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/design/R$attr.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/design/R$bool.class" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/design/R$bool.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/design/R$color.class" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/design/R$color.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/design/R$dimen.class" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/design/R$dimen.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/design/R$drawable.class" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/design/R$drawable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/design/R$id.class" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/design/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/design/R$integer.class" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/design/R$integer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/design/R$layout.class" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/design/R$layout.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/design/R$string.class" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/design/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/design/R$style.class" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/design/R$style.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/design/R$styleable.class" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/design/R$styleable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/design/R.class" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/design/R.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/v7/appcompat/R$anim.class" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/v7/appcompat/R$anim.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/v7/appcompat/R$attr.class" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/v7/appcompat/R$attr.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/v7/appcompat/R$bool.class" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/v7/appcompat/R$bool.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/v7/appcompat/R$color.class" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/v7/appcompat/R$color.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/v7/appcompat/R$dimen.class" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/v7/appcompat/R$dimen.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/v7/appcompat/R$drawable.class" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/v7/appcompat/R$drawable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/v7/appcompat/R$id.class" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/v7/appcompat/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/v7/appcompat/R$integer.class" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/v7/appcompat/R$integer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/v7/appcompat/R$layout.class" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/v7/appcompat/R$layout.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/v7/appcompat/R$string.class" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/v7/appcompat/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/v7/appcompat/R$style.class" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/v7/appcompat/R$style.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/v7/appcompat/R$styleable.class" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/v7/appcompat/R$styleable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/v7/appcompat/R.class" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/v7/appcompat/R.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/v7/recyclerview/R$attr.class" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/v7/recyclerview/R$attr.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/v7/recyclerview/R$dimen.class" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/v7/recyclerview/R$dimen.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/v7/recyclerview/R$id.class" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/v7/recyclerview/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/v7/recyclerview/R$styleable.class" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/v7/recyclerview/R$styleable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/v7/recyclerview/R.class" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/v7/recyclerview/R.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/mikmat/auha30parent/BuildConfig.class" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/mikmat/auha30parent/BuildConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/mikmat/auha30parent/Helpers/FirebaseHelper.class" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/mikmat/auha30parent/Helpers/FirebaseHelper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/mikmat/auha30parent/LoginActivity$1.class" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/mikmat/auha30parent/LoginActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/mikmat/auha30parent/LoginActivity.class" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/mikmat/auha30parent/LoginActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/mikmat/auha30parent/MainActivity$1.class" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/mikmat/auha30parent/MainActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/mikmat/auha30parent/MainActivity.class" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/mikmat/auha30parent/MainActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/mikmat/auha30parent/Models/Baby.class" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/mikmat/auha30parent/Models/Baby.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/mikmat/auha30parent/R$anim.class" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/mikmat/auha30parent/R$anim.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/mikmat/auha30parent/R$attr.class" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/mikmat/auha30parent/R$attr.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/mikmat/auha30parent/R$bool.class" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/mikmat/auha30parent/R$bool.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/mikmat/auha30parent/R$color.class" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/mikmat/auha30parent/R$color.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/mikmat/auha30parent/R$dimen.class" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/mikmat/auha30parent/R$dimen.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/mikmat/auha30parent/R$drawable.class" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/mikmat/auha30parent/R$drawable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/mikmat/auha30parent/R$id.class" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/mikmat/auha30parent/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/mikmat/auha30parent/R$integer.class" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/mikmat/auha30parent/R$integer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/mikmat/auha30parent/R$layout.class" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/mikmat/auha30parent/R$layout.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/mikmat/auha30parent/R$menu.class" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/mikmat/auha30parent/R$menu.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/mikmat/auha30parent/R$mipmap.class" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/mikmat/auha30parent/R$mipmap.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/mikmat/auha30parent/R$string.class" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/mikmat/auha30parent/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/mikmat/auha30parent/R$style.class" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/mikmat/auha30parent/R$style.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/mikmat/auha30parent/R$styleable.class" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/mikmat/auha30parent/R$styleable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/mikmat/auha30parent/R.class" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/mikmat/auha30parent/R.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/android/support/design/R$anim.class" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/android/support/design/R$anim.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/android/support/design/R$attr.class" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/android/support/design/R$attr.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/android/support/design/R$bool.class" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/android/support/design/R$bool.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/android/support/design/R$color.class" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/android/support/design/R$color.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/android/support/design/R$dimen.class" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/android/support/design/R$dimen.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/android/support/design/R$drawable.class" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/android/support/design/R$drawable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/android/support/design/R$id.class" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/android/support/design/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/android/support/design/R$integer.class" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/android/support/design/R$integer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/android/support/design/R$layout.class" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/android/support/design/R$layout.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/android/support/design/R$string.class" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/android/support/design/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/android/support/design/R$style.class" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/android/support/design/R$style.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/android/support/design/R$styleable.class" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/android/support/design/R$styleable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/android/support/design/R.class" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/android/support/design/R.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/mikmat/auha30parent/Models/Baby.class" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/mikmat/auha30parent/Models/Baby.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_1/com/mikmat/auha30parent/Helpers/FirebaseHelper.class" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_1/com/mikmat/auha30parent/Helpers/FirebaseHelper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/android/support/v7/appcompat/R$anim.class" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/android/support/v7/appcompat/R$anim.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/android/support/v7/appcompat/R$attr.class" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/android/support/v7/appcompat/R$attr.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/android/support/v7/appcompat/R$bool.class" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/android/support/v7/appcompat/R$bool.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/android/support/v7/appcompat/R$color.class" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/android/support/v7/appcompat/R$color.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/android/support/v7/appcompat/R$dimen.class" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/android/support/v7/appcompat/R$dimen.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/android/support/v7/appcompat/R$drawable.class" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/android/support/v7/appcompat/R$drawable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/android/support/v7/appcompat/R$id.class" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/android/support/v7/appcompat/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/android/support/v7/appcompat/R$integer.class" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/android/support/v7/appcompat/R$integer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/android/support/v7/appcompat/R$layout.class" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/android/support/v7/appcompat/R$layout.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/android/support/v7/appcompat/R$string.class" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/android/support/v7/appcompat/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/android/support/v7/appcompat/R$style.class" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/android/support/v7/appcompat/R$style.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/android/support/v7/appcompat/R$styleable.class" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/android/support/v7/appcompat/R$styleable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/android/support/v7/appcompat/R.class" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/android/support/v7/appcompat/R.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/mikmat/auha30parent/BuildConfig.class" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/mikmat/auha30parent/BuildConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/mikmat/auha30parent/LoginActivity$1.class" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/mikmat/auha30parent/LoginActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/mikmat/auha30parent/LoginActivity.class" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/mikmat/auha30parent/LoginActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/mikmat/auha30parent/MainActivity$1.class" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/mikmat/auha30parent/MainActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/mikmat/auha30parent/MainActivity.class" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/mikmat/auha30parent/MainActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/mikmat/auha30parent/R$anim.class" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/mikmat/auha30parent/R$anim.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/mikmat/auha30parent/R$attr.class" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/mikmat/auha30parent/R$attr.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/mikmat/auha30parent/R$bool.class" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/mikmat/auha30parent/R$bool.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/mikmat/auha30parent/R$color.class" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/mikmat/auha30parent/R$color.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/mikmat/auha30parent/R$dimen.class" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/mikmat/auha30parent/R$dimen.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/mikmat/auha30parent/R$drawable.class" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/mikmat/auha30parent/R$drawable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/mikmat/auha30parent/R$id.class" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/mikmat/auha30parent/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/mikmat/auha30parent/R$integer.class" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/mikmat/auha30parent/R$integer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/mikmat/auha30parent/R$layout.class" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/mikmat/auha30parent/R$layout.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/mikmat/auha30parent/R$menu.class" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/mikmat/auha30parent/R$menu.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/mikmat/auha30parent/R$mipmap.class" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/mikmat/auha30parent/R$mipmap.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/mikmat/auha30parent/R$string.class" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/mikmat/auha30parent/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/mikmat/auha30parent/R$style.class" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/mikmat/auha30parent/R$style.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/mikmat/auha30parent/R$styleable.class" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/mikmat/auha30parent/R$styleable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/mikmat/auha30parent/R.class" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/mikmat/auha30parent/R.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/android/support/v7/recyclerview/R$attr.class" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/android/support/v7/recyclerview/R$attr.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/android/support/v7/recyclerview/R$dimen.class" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/android/support/v7/recyclerview/R$dimen.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/android/support/v7/recyclerview/R$id.class" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/android/support/v7/recyclerview/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/android/support/v7/recyclerview/R$styleable.class" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/android/support/v7/recyclerview/R$styleable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/android/support/v7/recyclerview/R.class" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/android/support/v7/recyclerview/R.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/outputs/apk/app-debug-unaligned.apk" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/outputs/apk/app-debug-unaligned.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/outputs/apk/app-debug.apk" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/outputs/apk/app-debug.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/TaskBoard.xlsx" afterPath="$PROJECT_DIR$/../Projekt/TaskBoard.xlsx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../HandIn2and3/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../HandIn2and3/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../HandIn2and3/app/app.iml" afterPath="$PROJECT_DIR$/../HandIn2and3/app/app.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/.idea/misc.xml" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/app.iml" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/app.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/generated/source/r/debug/android/support/design/R.java" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/generated/source/r/debug/android/support/design/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/generated/source/r/debug/android/support/v7/appcompat/R.java" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/generated/source/r/debug/android/support/v7/appcompat/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/generated/source/r/debug/com/mikmat/auha30parent/R.java" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/generated/source/r/debug/com/mikmat/auha30parent/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/blame/res/debug/multi/values.json" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/blame/res/debug/multi/values.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/blame/res/debug/single/layout.json" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/blame/res/debug/single/layout.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/bundles/debug/instant-run/AndroidManifest.xml" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/bundles/debug/instant-run/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/incremental/mergeDebugAndroidTestAssets/merger.xml" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/incremental/mergeDebugAndroidTestAssets/merger.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/incremental/mergeDebugAssets/merger.xml" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/incremental/mergeDebugAssets/merger.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/incremental/mergeDebugResources/merger.xml" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/incremental/mergeDebugResources/merger.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/instant-run-support/debug/manifest.crc" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/instant-run-support/debug/manifest.crc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/res/merged/debug/layout/activity_login.xml" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/res/merged/debug/layout/activity_login.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/res/merged/debug/layout/content_main.xml" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/res/merged/debug/layout/content_main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/res/merged/debug/values/values.xml" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/res/merged/debug/values/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/restart-dex/debug/build-info.xml" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/restart-dex/debug/build-info.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/symbols/debug/R.txt" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/intermediates/symbols/debug/R.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/build/outputs/logs/manifest-merger-debug-report.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/src/main/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/src/main/java/com/mikmat/auha30parent/Helpers/FirebaseHelper.java" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/src/main/java/com/mikmat/auha30parent/Helpers/FirebaseHelper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/build.gradle" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/.idea/misc.xml" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Staff/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/src/main/java/com/mikmat/auha30parent/LoginActivity.java" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/src/main/java/com/mikmat/auha30parent/LoginActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/src/main/java/com/mikmat/auha30parent/MainActivity.java" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/src/main/java/com/mikmat/auha30parent/MainActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/src/main/java/com/mikmat/auha30parent/Models/Baby.java" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/src/main/java/com/mikmat/auha30parent/Models/Baby.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/src/main/res/layout/activity_login.xml" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/src/main/res/layout/activity_login.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/src/main/res/layout/content_main.xml" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/src/main/res/layout/content_main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Parent/app/src/main/res/values/strings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Staff/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/app.iml" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/app.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/blame/res/debug/multi/values.json" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/blame/res/debug/multi/values.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/blame/res/debug/single/layout.json" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/blame/res/debug/single/layout.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/incremental/mergeDebugAndroidTestAssets/merger.xml" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/incremental/mergeDebugAndroidTestAssets/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/incremental/mergeDebugAssets/merger.xml" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Staff/app/build/intermediates/incremental/mergeDebugAssets/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Projekt/AUHA30Staff/build.gradle" afterPath="$PROJECT_DIR$/../Projekt/AUHA30Staff/build.gradle" />
     </list>
     <ignored path="FirebaseTestApp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -605,11 +221,10 @@
       <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mat/firebasetestapp/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.65724814">
-              <caret line="72" column="35" selection-start-line="72" selection-start-column="35" selection-end-line="72" selection-end-column="35" />
+            <state vertical-scroll-proportion="0.48205128">
+              <caret line="101" column="17" selection-start-line="101" selection-start-column="17" selection-end-line="101" selection-end-column="17" />
               <folding>
-                <element signature="e#5364#5784#0" expanded="true" />
-                <element signature="e#5783#5784#0" expanded="true" />
+                <element signature="e#4212#4237#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -2359,6 +1974,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -2376,77 +1995,15 @@
               <option name="myItemId" value="FirebaseTestApp" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FirebaseTestApp" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FirebaseTestApp" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="firebasetestapp" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FirebaseTestApp" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="firebasetestapp" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="android.sdk-updates" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Projekt/AUHA30Staff" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../HandIn2and3" />
   </component>
   <component name="RunManager" selected="Android Application.app">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
@@ -2630,7 +2187,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1924" height="1038" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -2677,7 +2234,9 @@
     <option name="LAST_COMMIT_MESSAGE" value="Mat's firebase test app Initial commit" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -2686,8 +2245,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#5364#5784#0" expanded="true" />
-            <element signature="e#5783#5784#0" expanded="true" />
+            <element signature="e#4212#4237#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2725,8 +2283,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#5364#5784#0" expanded="true" />
-            <element signature="e#5783#5784#0" expanded="true" />
+            <element signature="e#4212#4237#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2764,8 +2321,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#5364#5784#0" expanded="true" />
-            <element signature="e#5783#5784#0" expanded="true" />
+            <element signature="e#4212#4237#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2803,8 +2359,19 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#5364#5784#0" expanded="true" />
-            <element signature="e#5783#5784#0" expanded="true" />
+            <element signature="e#4212#4237#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mat/firebasetestapp/Adaptors/userListAdaptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="69" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1061#1062#0" expanded="false" />
+            <element signature="e#1092#1093#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2830,8 +2397,33 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#5364#5784#0" expanded="true" />
-            <element signature="e#5783#5784#0" expanded="true" />
+            <element signature="e#4212#4237#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mat/firebasetestapp/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#4212#4237#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2866,11 +2458,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mat/firebasetestapp/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.65724814">
-          <caret line="72" column="35" selection-start-line="72" selection-start-column="35" selection-end-line="72" selection-end-column="35" />
+        <state vertical-scroll-proportion="0.48205128">
+          <caret line="101" column="17" selection-start-line="101" selection-start-column="17" selection-end-line="101" selection-end-column="17" />
           <folding>
-            <element signature="e#5364#5784#0" expanded="true" />
-            <element signature="e#5783#5784#0" expanded="true" />
+            <element signature="e#4212#4237#0" expanded="false" />
           </folding>
         </state>
       </provider>

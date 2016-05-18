@@ -7,9 +7,10 @@
     <string name="action_settings">Settings</string>
 
     <string name="sharedPreferences">sharedPreferences</string>
-    <string name="first_time_use">FirstTimeUse</string>
+    <string name="LOGGED_IN">LoggedIn</string>
     <string name="enter_your_key">Enter your key:</string>
     <string name="login">Login</string>
+    <string name="FbBabyRef">Firebase_baby_reference</string>
+    <string name="This_Baby">Firebase specific baby</string>
 
-    <string name="KEY_EXTRA">key_extra</string>
 </resources>
