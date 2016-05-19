@@ -17,6 +17,7 @@ import com.firebase.client.DataSnapshot;
 import com.firebase.client.Firebase;
 import com.firebase.client.FirebaseError;
 import com.firebase.client.ValueEventListener;
+import com.firebase.client.realtime.util.StringListReader;
 import com.mikmat.auha30parent.Helpers.FirebaseHelper;
 import com.mikmat.auha30parent.Models.Baby;
 
@@ -25,6 +26,7 @@ import com.mikmat.auha30parent.Models.Baby;
  */
 public class LoginActivity extends AppCompatActivity {
 
+    private static final String REFBABY = "BabyToReturn";
     private Button loginBtn;
     private EditText keyValue;
     private ProgressBar spinner;
@@ -109,7 +111,7 @@ public class LoginActivity extends AppCompatActivity {
         editor.commit();
 
         Intent result = new Intent(this, LoginActivity.class);
-        result.putExtra(getString(R.string.This_Baby), foundBaby.getFirebaseRef());
+        result.putExtra(REFBABY, foundBaby.getFirebaseRef());
         setResult(Activity.RESULT_OK, result);
     }
 

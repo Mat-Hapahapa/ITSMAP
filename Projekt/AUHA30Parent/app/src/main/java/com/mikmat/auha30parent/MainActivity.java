@@ -28,7 +28,7 @@ import com.mikmat.auha30parent.Models.Baby;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
-
+    private static final String REFBABY = "BabyToReturn";
     static final int LOGIN_RESULT = 100;
     private FirebaseHelper fbtmp;
     private Baby thisBaby;
@@ -72,19 +72,6 @@ public class MainActivity extends AppCompatActivity
     protected void onResume() {
         super.onResume();
         isLoggedIn();
-        SharedPreferences sharedPreferences = getSharedPreferences(getString(R.string.sharedPreferences), MODE_PRIVATE);
-
-        new Firebase(sharedPreferences.getString(getString(R.string.This_Baby), "")).addValueEventListener(new ValueEventListener() {
-            @Override
-            public void onDataChange(DataSnapshot snapshot) {
-                thisBaby = snapshot.getValue(Baby.class);
-            }
-
-            @Override
-            public void onCancelled(FirebaseError firebaseError) {
-                System.out.println("The read failed: " + firebaseError.getMessage());
-            }
-        });
     }
 
     @Override
@@ -153,8 +140,20 @@ public class MainActivity extends AppCompatActivity
 
                     SharedPreferences sharedPreferences = getSharedPreferences(getString(R.string.sharedPreferences), MODE_PRIVATE);
                     SharedPreferences.Editor editor = sharedPreferences.edit();
-                    editor.putString(getString(R.string.FbBabyRef), extra.getString(getString(R.string.This_Baby)));
+                    editor.putString(getString(R.string.FbBabyRef), extra.getString(REFBABY));
                     editor.commit();
+
+                    new Firebase(extra.getString(REFBABY)).addValueEventListener(new ValueEventListener() {
+                        @Override
+                        public void onDataChange(DataSnapshot snapshot) {
+                            thisBaby = snapshot.getValue(Baby.class);
+                        }
+
+                        @Override
+                        public void onCancelled(FirebaseError firebaseError) {
+                            System.out.println("The read failed: " + firebaseError.getMessage());
+                        }
+                    });
                 }
             default:
                 super.onActivityResult(requestCode, resultCode, data);
