@@ -74,4 +74,12 @@ public class Baby {
     public void setFirebaseRef(String firebaseRef) {
         this.firebaseRef = firebaseRef;
     }
+
+    public String getGender() {
+        return gender;
+    }
+
+    public void setGender(String gender) {
+        this.gender = gender;
+    }
 }

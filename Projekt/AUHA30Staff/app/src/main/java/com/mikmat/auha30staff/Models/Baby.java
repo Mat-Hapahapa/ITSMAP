@@ -16,6 +16,7 @@ public class Baby implements Serializable {
     private Date birthday;
     private String email;
     private String caretaker;
+    private String firebaseRef;
 
     public Baby(){}
 
@@ -71,4 +72,12 @@ public class Baby implements Serializable {
     public String getGender() { return gender; }
 
     public void setGender(String gender) { this.gender = gender; }
+
+    public String getFirebaseRef() {
+        return firebaseRef;
+    }
+
+    public void setFirebaseRef(String firebaseRef) {
+        this.firebaseRef = firebaseRef;
+    }
 }

@@ -147,7 +147,6 @@ public class MainActivity extends AppCompatActivity
                         @Override
                         public void onDataChange(DataSnapshot snapshot) {
                             thisBaby = snapshot.getValue(Baby.class);
-                            int re = 1+1;
                         }
 
                         @Override
