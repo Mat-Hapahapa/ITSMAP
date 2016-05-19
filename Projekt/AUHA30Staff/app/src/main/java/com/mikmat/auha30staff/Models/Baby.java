@@ -68,4 +68,7 @@ public class Baby implements Serializable {
         this.caretaker = caretaker;
     }
 
+    public String getGender() { return gender; }
+
+    public void setGender(String gender) { this.gender = gender; }
 }
