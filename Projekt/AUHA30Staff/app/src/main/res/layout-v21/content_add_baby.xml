@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -8,35 +9,28 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.mikmat.auha30staff.BabyDetailActivity">
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".AddBabyActivity"
+    tools:showIn="@layout/activity_add_baby">
 
-    <TextView
+    <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Name:"/>
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/text_name"/>
+        android:id="@+id/edit_name"
+        android:hint="Navn"/>
 
-    <TextView
+    <DatePicker
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Birthday:"/>
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/text_birthday"/>
+        android:id="@+id/date_birthday"
+        android:calendarViewShown="false"
+        android:datePickerMode="spinner"/>
 
-    <TextView
+    <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/text_gender"
-        android:text="Hen"/>
-
-    <android.support.design.widget.FloatingActionButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/fab_edit"/>
+        android:layout_gravity="bottom"
+        android:id="@+id/button_create_baby"
+        android:text="create"/>
 
 </LinearLayout>
