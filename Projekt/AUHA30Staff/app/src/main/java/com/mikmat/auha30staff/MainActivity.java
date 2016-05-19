@@ -24,6 +24,8 @@ import com.mikmat.auha30staff.Adapters.BabyListAdapter;
 import com.mikmat.auha30staff.Models.Baby;
 
 import java.util.ArrayList;
+import java.util.Calendar;
+import java.util.Date;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener, AdapterView.OnItemClickListener {
@@ -44,7 +46,7 @@ public class MainActivity extends AppCompatActivity
         //TODO: Populate with real data
         babyList = new ArrayList<Baby>();
         for (int i=0; i<20; i++) {
-            babyList.add(new Baby(i, "TestBaby" + String.valueOf(i)));
+            babyList.add(new Baby(i, "TestBaby" + String.valueOf(i), "Hen", Calendar.getInstance().getTime(), "none", "no one"));
         }
         babyListAdapter = new BabyListAdapter(this, babyList);
         babyListView = (ListView) findViewById(R.id.babyListView);
@@ -166,7 +168,7 @@ public class MainActivity extends AppCompatActivity
         Baby chosenOne = (Baby) babyListAdapter.getItem(position);
 
         Intent intent = new Intent(this, BabyDetailActivity.class);
-        intent.putExtras(chosenOne);
+        intent.putExtra("barn", chosenOne);
         startActivity(intent);
     }
 }
