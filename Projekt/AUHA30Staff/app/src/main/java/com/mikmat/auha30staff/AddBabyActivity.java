@@ -55,7 +55,7 @@ public class AddBabyActivity extends AppCompatActivity {
         baby.setBirthday(calendar.getTime());
         baby.setName(name);
 
-        Firebase firebaseRef = new Firebase("https://blinding-inferno-2026.firebaseio.com/web/data");
+        Firebase firebaseRef = new Firebase("https://auha30.firebaseio.com/web/data/Babies");
         firebaseRef.child("children").setValue(baby);
     }
 

@@ -20,6 +20,10 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ListView;
 
+import com.firebase.client.DataSnapshot;
+import com.firebase.client.Firebase;
+import com.firebase.client.FirebaseError;
+import com.firebase.client.ValueEventListener;
 import com.mikmat.auha30staff.Adapters.BabyListAdapter;
 import com.mikmat.auha30staff.Models.Baby;
 
@@ -32,9 +36,10 @@ public class MainActivity extends AppCompatActivity
 
     private BabyListAdapter babyListAdapter;
     private ListView babyListView;
-    private ArrayList<Baby> babyList;
+    private ArrayList<Baby> babyList = new ArrayList<Baby>();
     private EditText searchField;
     private Button buttonAddBaby;
+    private Firebase rootRef;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -43,15 +48,18 @@ public class MainActivity extends AppCompatActivity
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        //TODO: Populate with real data
-        babyList = new ArrayList<Baby>();
+        Firebase.setAndroidContext(this);
+        rootRef = new Firebase("https://auha30.firebaseio.com/web/data/Babies");
+
+      /*  //TODO: Populate with real data
+
         for (int i=0; i<20; i++) {
             babyList.add(new Baby(i, "TestBaby" + String.valueOf(i), "Hen", Calendar.getInstance().getTime(), "none", "no one"));
         }
         babyListAdapter = new BabyListAdapter(this, babyList);
         babyListView = (ListView) findViewById(R.id.babyListView);
         babyListView.setAdapter(babyListAdapter);
-
+*/
 
         searchField = (EditText) findViewById(R.id.searchKey);
         searchField.addTextChangedListener(new TextWatcher() {
@@ -98,7 +106,22 @@ public class MainActivity extends AppCompatActivity
             }
         });
 
-        babyListView.setOnItemClickListener(this);
+        rootRef.addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(DataSnapshot snapshot) {
+
+                babyList.clear();
+                for (DataSnapshot UserSnapshot: snapshot.getChildren()) {
+                    Baby baby = UserSnapshot.getValue(Baby.class);
+                    babyList.add(baby);
+                }
+                updateListView();
+            }
+            @Override
+            public void onCancelled(FirebaseError firebaseError) {
+                System.out.println("The read failed: " + firebaseError.getMessage());
+            }
+        });
     }
 
     public void onAddBabbyPressed() {
@@ -170,5 +193,12 @@ public class MainActivity extends AppCompatActivity
         Intent intent = new Intent(this, BabyDetailActivity.class);
         intent.putExtra("barn", chosenOne);
         startActivity(intent);
+    }
+
+    public void updateListView() {
+        babyListAdapter = new BabyListAdapter(this, babyList);
+        babyListView = (ListView) findViewById(R.id.babyListView);
+        babyListView.setAdapter(babyListAdapter);
+        babyListView.setOnItemClickListener(this);
     }
 }
