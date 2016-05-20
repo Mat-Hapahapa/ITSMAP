@@ -13,23 +13,43 @@
     tools:context=".AddBabyActivity"
     tools:showIn="@layout/activity_add_baby">
 
-    <EditText
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/edit_name"
-        android:hint="Navn"/>
+        android:layout_height="match_parent">
 
-    <DatePicker
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/date_birthday"
-        android:calendarViewShown="false"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="bottom"
-        android:id="@+id/button_create_baby"
-        android:text="create"/>
+            <EditText
+                android:id="@+id/edit_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Navn" />
 
+            <DatePicker
+                android:id="@+id/date_birthday"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:calendarViewShown="false" />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/gender_spinner"
+                android:entries="@array/array_gender"/>
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/caretaker_spinner"/>
+
+            <Button
+                android:id="@+id/button_create_baby"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"/>
+        </LinearLayout>
+    </ScrollView>
 </LinearLayout>

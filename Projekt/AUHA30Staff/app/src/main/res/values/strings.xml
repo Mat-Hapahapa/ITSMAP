@@ -8,4 +8,11 @@
     <string name="search">search</string>
     <string name="SearchKey">Search by Name</string>
     <string name="title_activity_add_baby">AddBabyActivity</string>
+
+
+    <string-array name="array_gender">
+        <item>Vælg køn</item>
+        <item>Pige</item>
+        <item>Dreng</item>
+    </string-array>
 </resources>

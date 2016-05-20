@@ -12,6 +12,8 @@ import android.widget.TextView;
 import com.mikmat.auha30staff.Models.Baby;
 import com.mikmat.auha30staff.R;
 
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 
 /**
@@ -67,7 +69,14 @@ public class BabyListAdapter extends BaseAdapter implements Filterable {
             name.setText(baby.getName());
 
             TextView age = (TextView) convertView.findViewById(R.id.babyBirth);
-            age.setText(String.valueOf(baby.getBirthday()));
+            DateFormat dateFormat = new SimpleDateFormat("dd-MM-yyyy");
+            age.setText(String.valueOf(dateFormat.format(baby.getBirthday())));
+
+            TextView gender = (TextView) convertView.findViewById(R.id.babyGender);
+            gender.setText(baby.getGender());
+
+            TextView caretaker = (TextView) convertView.findViewById(R.id.babyCaretaker);
+            caretaker.setText(baby.getCaretaker());
         }
 
         return convertView;

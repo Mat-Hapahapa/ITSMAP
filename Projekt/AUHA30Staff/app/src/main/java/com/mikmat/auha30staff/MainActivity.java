@@ -51,16 +51,6 @@ public class MainActivity extends AppCompatActivity
         Firebase.setAndroidContext(this);
         rootRef = new Firebase("https://auha30.firebaseio.com/web/data/Babies");
 
-      /*  //TODO: Populate with real data
-
-        for (int i=0; i<20; i++) {
-            babyList.add(new Baby(i, "TestBaby" + String.valueOf(i), "Hen", Calendar.getInstance().getTime(), "none", "no one"));
-        }
-        babyListAdapter = new BabyListAdapter(this, babyList);
-        babyListView = (ListView) findViewById(R.id.babyListView);
-        babyListView.setAdapter(babyListAdapter);
-*/
-
         searchField = (EditText) findViewById(R.id.searchKey);
         searchField.addTextChangedListener(new TextWatcher() {
             @Override
@@ -167,8 +157,9 @@ public class MainActivity extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_camera) {
-            // Handle the camera action
+        if (id == R.id.nav_caretaker) {
+            Intent intent = new Intent(this, CaretakerActivity.class);
+            startActivity(intent);
         } else if (id == R.id.nav_gallery) {
 
         } else if (id == R.id.nav_slideshow) {
