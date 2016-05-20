@@ -9,9 +9,9 @@
     <string name="SearchKey">Search by Name</string>
     <string name="title_activity_add_baby">AddBabyActivity</string>
     <string-array name="array_gender">
-        <item>Vælg køn</item>
-        <item>Pige</item>
-        <item>Dreng</item>
+        <item>Choose Gender</item>
+        <item>Female</item>
+        <item>Male</item>
     </string-array>
     <string name="yes">Yes</string>
     <string name="no">No</string>

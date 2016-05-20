@@ -9,6 +9,11 @@
     <string name="search">søg</string>
     <string name="SearchKey">Søg efter navn</string>
     <string name="title_activity_add_baby">Tilføj Baby</string>
+    <string-array name="array_gender">
+        <item>Vælg køn</item>
+        <item>Pige</item>
+        <item>Dreng</item>
+    </string-array>
     <string name="yes">Ja</string>
     <string name="no">Nej</string>
     <string name="discharge_baby">Babyen blev udskrevet</string>
