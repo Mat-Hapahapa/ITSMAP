@@ -8,11 +8,13 @@
     <string name="search">search</string>
     <string name="SearchKey">Search by Name</string>
     <string name="title_activity_add_baby">AddBabyActivity</string>
-
-
     <string-array name="array_gender">
         <item>Vælg køn</item>
         <item>Pige</item>
         <item>Dreng</item>
     </string-array>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="discharge_baby">The baby was discharged</string>
+    <string name="alert_discharge_baby">Are you certain you want to discharge th ebaby from the hospital</string>
 </resources>

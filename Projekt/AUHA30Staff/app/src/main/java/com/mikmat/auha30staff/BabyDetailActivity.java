@@ -13,6 +13,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.firebase.client.Firebase;
+import com.firebase.client.core.Context;
 import com.mikmat.auha30staff.Models.Baby;
 
 public class BabyDetailActivity extends AppCompatActivity {
@@ -64,10 +65,10 @@ public class BabyDetailActivity extends AppCompatActivity {
 
     public void onButtonDischarge() {
         AlertDialog.Builder builder =  new AlertDialog.Builder(this);
-        builder.setMessage("Er du sikker på at du vil udskrive barnet fra hospitalet?");
-        builder.setNegativeButton("Nej", null);
+        builder.setMessage(this.getResources().getString(R.string.alert_discharge_baby));
+        builder.setNegativeButton(this.getResources().getString(R.string.no), null);
 
-        builder.setPositiveButton( "Ja", new DialogInterface.OnClickListener() {
+        builder.setPositiveButton( this.getResources().getString(R.string.yes), new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
                 onAlertPositiveButton();
@@ -81,6 +82,6 @@ public class BabyDetailActivity extends AppCompatActivity {
         firebase.removeValue();
         finish();
 
-        Toast.makeText(this, "Babyen blev udskrevet", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, this.getResources().getString(R.string.discharge_baby), Toast.LENGTH_SHORT).show();
     }
 }

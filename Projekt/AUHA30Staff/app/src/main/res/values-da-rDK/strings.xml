@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AUH A30 Staff</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Indstillinger</string>
+    <string name="search">søg</string>
+    <string name="SearchKey">Søg efter navn</string>
+    <string name="title_activity_add_baby">Tilføj Baby</string>
+    <string name="yes">Ja</string>
+    <string name="no">Nej</string>
+    <string name="discharge_baby">Babyen blev udskrevet</string>
+    <string name="alert_discharge_baby">Er du sikker på at du vil udskrive barnet fra hospitalet?</string>
+
+
+</resources>
