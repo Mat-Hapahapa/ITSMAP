@@ -37,6 +37,9 @@
     <android.support.design.widget.FloatingActionButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/fab_edit"/>
+        android:id="@+id/fab_edit"
+        android:src="@drawable/ic_edit_btn"
+        android:scaleType="center"
+        android:layout_gravity="bottom|right"/>
 
 </LinearLayout>
