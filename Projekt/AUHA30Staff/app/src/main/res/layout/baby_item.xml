@@ -1,16 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:padding="5dp">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/babyName"/>
+        android:text="@string/name"
+        android:id="@+id/babyNameText"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/babyName"
+        android:layout_toRightOf="@id/babyNameText"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/birthday"
+        android:id="@+id/babyBirthText"
+        android:layout_below="@+id/babyName"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/babyBirth"
+        android:layout_toRightOf="@+id/babyBirthText"
         android:layout_below="@+id/babyName"/>
     <TextView
         android:layout_width="wrap_content"
@@ -20,8 +34,31 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="@string/gender"
+        android:layout_toLeftOf="@+id/babyGender"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:id="@+id/babyCaretaker"
+        android:layout_toRightOf="@+id/babyCaretakerText"
+        android:layout_below="@+id/babyBirthText"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/caretaker"
+        android:id="@+id/babyCaretakerText"
+        android:layout_below="@+id/babyBirthText"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/babyID"
         android:layout_alignParentRight="true"
         android:layout_below="@+id/babyGender"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/babyGender"
+        android:layout_toLeftOf="@+id/babyID"
+        android:text="ID: "/>
 
 </RelativeLayout>

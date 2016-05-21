@@ -25,9 +25,10 @@ public class BabyListAdapter extends BaseAdapter implements Filterable {
     ArrayList<Baby> babyList;
     ArrayList<Baby> filterList;
     Baby baby;
+    DateFormat dateFormat = new SimpleDateFormat("dd-MM-yyyy");
     private ItemFilter itemFilter = new ItemFilter();
 
-    public BabyListAdapter(Context context, ArrayList<Baby> babyList){
+    public BabyListAdapter(Context context, ArrayList<Baby> babyList) {
         this.context = context;
         this.babyList = babyList;
         this.filterList = babyList;
@@ -69,7 +70,6 @@ public class BabyListAdapter extends BaseAdapter implements Filterable {
             name.setText(baby.getName());
 
             TextView age = (TextView) convertView.findViewById(R.id.babyBirth);
-            DateFormat dateFormat = new SimpleDateFormat("dd-MM-yyyy");
             age.setText(String.valueOf(dateFormat.format(baby.getBirthday())));
 
             TextView gender = (TextView) convertView.findViewById(R.id.babyGender);
@@ -77,6 +77,9 @@ public class BabyListAdapter extends BaseAdapter implements Filterable {
 
             TextView caretaker = (TextView) convertView.findViewById(R.id.babyCaretaker);
             caretaker.setText(baby.getCaretaker());
+
+            TextView ID = (TextView) convertView.findViewById(R.id.babyID);
+            ID.setText(String.valueOf(baby.getID()));
         }
 
         return convertView;
@@ -102,10 +105,18 @@ public class BabyListAdapter extends BaseAdapter implements Filterable {
             if (constraint != null && constraint.length() > 0) {
                 ArrayList<Baby> tmpFilterList = new ArrayList<Baby>();
                 for (Baby b : filterList) {
-                    //TODO: Should the parameter be ID? Should there be options?
-                    if (b.getName().toUpperCase().contains( constraint.toString().toUpperCase() )) {
+                    if (b.getName().toUpperCase().contains(constraint.toString().toUpperCase())) {
                         tmpFilterList.add(b);
+                    } else if (b.getCaretaker().toUpperCase().contains(constraint.toString().toUpperCase())) {
+                        tmpFilterList.add(b);
+                    } else if (String.valueOf(dateFormat.format(b.getBirthday())).contains(constraint.toString())) {
+                        tmpFilterList.add(b);
+                    } else if (isStringInt(constraint.toString())) {
+                        if (String.valueOf(b.getID()).contains(constraint.toString())) {
+                            tmpFilterList.add(b);
+                        }
                     }
+
                 }
                 results.count = tmpFilterList.size();
                 results.values = tmpFilterList;
@@ -120,6 +131,15 @@ public class BabyListAdapter extends BaseAdapter implements Filterable {
         protected void publishResults(CharSequence constraint, FilterResults results) {
             babyList = (ArrayList<Baby>) results.values;
             notifyDataSetChanged();
+        }
+    }
+
+    private boolean isStringInt(String str) {
+        try {
+            Integer.parseInt(str);
+            return true;
+        } catch (NumberFormatException e) {
+            return false;
         }
     }
 }

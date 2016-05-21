@@ -7,7 +7,7 @@
 
     <string name="action_settings">Indstillinger</string>
     <string name="search">søg</string>
-    <string name="SearchKey">Søg efter navn</string>
+    <string name="SearchKey">Søg</string>
     <string name="title_activity_add_baby">Tilføj Baby</string>
     <string-array name="array_gender">
         <item>Vælg køn</item>
@@ -18,6 +18,12 @@
     <string name="no">Nej</string>
     <string name="discharge_baby">Babyen blev udskrevet</string>
     <string name="alert_discharge_baby">Er du sikker på at du vil udskrive barnet fra hospitalet?</string>
+    <string name="alertGender">Intet køn valgt</string>
+    <string name="name"><![CDATA[Navn: ]]></string>
+    <string name="birthday"><![CDATA[Fødselsdag:  ]]></string>
+    <string name="gender"><![CDATA[Køn: ]]></string>
+    <string name="caretaker"><![CDATA[Passer: ]]></string>
+    <string name="added">Tilføjet</string>
 
 
 </resources>

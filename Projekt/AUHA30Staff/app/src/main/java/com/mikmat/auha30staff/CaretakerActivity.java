@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
 import com.firebase.client.DataSnapshot;
 import com.firebase.client.Firebase;
@@ -23,6 +24,7 @@ public class CaretakerActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_caretaker);
 
+        caretakerList = new ArrayList<>();
         Firebase.setAndroidContext(this);
         fbRef = new Firebase("https://auha30.firebaseio.com/web/data/caretakers");
 
@@ -30,7 +32,9 @@ public class CaretakerActivity extends AppCompatActivity {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
                 caretakerList.clear();
-                caretakerList = dataSnapshot.getValue(ArrayList.class);
+                if (dataSnapshot.getValue() != null) {
+                    caretakerList = dataSnapshot.getValue(ArrayList.class);
+                }
             }
 
             @Override
@@ -48,6 +52,8 @@ public class CaretakerActivity extends AppCompatActivity {
                 caretakerList.add(caretakerName.getText().toString());
 
                 fbRef.setValue(caretakerList);
+                Toast.makeText(getApplicationContext(),
+                        R.string.added, Toast.LENGTH_LONG).show();
             }
         });
 

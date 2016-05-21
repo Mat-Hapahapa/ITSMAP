@@ -6,7 +6,7 @@
 
     <string name="action_settings">Settings</string>
     <string name="search">search</string>
-    <string name="SearchKey">Search by Name</string>
+    <string name="SearchKey">Search</string>
     <string name="title_activity_add_baby">AddBabyActivity</string>
     <string-array name="array_gender">
         <item>Choose Gender</item>
@@ -17,4 +17,10 @@
     <string name="no">No</string>
     <string name="discharge_baby">The baby was discharged</string>
     <string name="alert_discharge_baby">Are you certain you want to discharge th ebaby from the hospital</string>
+    <string name="alertGender">Please select a gender</string>
+    <string name="name"><![CDATA[Name: ]]></string>
+    <string name="birthday"><![CDATA[Birthday: ]]></string>
+    <string name="gender"><![CDATA[Gender: ]]></string>
+    <string name="caretaker"><![CDATA[Caretaker: ]]></string>
+    <string name="added">Added</string>
 </resources>
