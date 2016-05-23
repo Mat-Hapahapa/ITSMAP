@@ -10,7 +10,7 @@ import java.util.Date;
  * Created by matry on 15-05-2016.
  */
 public class Baby implements Serializable {
-    private int ID;
+    private String ID;
     private String name;
     private String gender;
     private Date birthday;
@@ -20,7 +20,7 @@ public class Baby implements Serializable {
 
     public Baby(){}
 
-    public Baby(int id, String name, String gender, Date birthday, String email, String caretaker){
+    public Baby(String id, String name, String gender, Date birthday, String email, String caretaker){
         this.ID = id;
         this.name = name;
         this.gender = gender;
@@ -29,11 +29,11 @@ public class Baby implements Serializable {
         this.caretaker = caretaker;
     }
 
-    public int getID() {
+    public String getID() {
         return ID;
     }
 
-    public void setID(int ID) {
+    public void setID(String ID) {
         this.ID = ID;
     }
 

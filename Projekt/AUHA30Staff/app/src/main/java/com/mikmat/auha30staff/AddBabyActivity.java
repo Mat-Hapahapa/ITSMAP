@@ -21,8 +21,20 @@ import com.mikmat.auha30staff.Models.Baby;
 
 import java.util.ArrayList;
 import java.util.Calendar;
+import java.util.Random;
 
 public class AddBabyActivity extends AppCompatActivity {
+
+    private static final char[] symbols;
+    static {
+        StringBuilder tmp = new StringBuilder();
+        for (char ch = '0'; ch <= '9'; ++ch)
+            tmp.append(ch);
+        for (char ch = 'a'; ch <= 'z'; ++ch)
+            tmp.append(ch);
+        symbols = tmp.toString().toCharArray();
+    }
+    private static final int ID_LENGTH = 4;
 
     private EditText mEditTextName;
     private DatePicker mDatePickerBirthday;
@@ -90,7 +102,6 @@ public class AddBabyActivity extends AppCompatActivity {
         Spinner caretakerSpinner = (Spinner) findViewById(R.id.caretaker_spinner);
         String caretaker = caretakerSpinner.getSelectedItem().toString();
 
-
         Calendar calendar = Calendar.getInstance();
         calendar.set(year, month, day);
         Baby baby = new Baby();
@@ -98,7 +109,7 @@ public class AddBabyActivity extends AppCompatActivity {
         baby.setName(name);
         baby.setGender(gender);
         baby.setCaretaker(caretaker);
-
+        baby.setID(generateId());
 
         Firebase firebaseRef = new Firebase("https://auha30.firebaseio.com/web/data/Babies");
         Firebase newBabyRef = firebaseRef.push();
@@ -117,6 +128,17 @@ public class AddBabyActivity extends AppCompatActivity {
         mCaretakerSpinner = (Spinner) findViewById(R.id.caretaker_spinner);
         ArrayAdapter<String> stringArrayAdapter = new ArrayAdapter<>(this, android.R.layout.simple_spinner_dropdown_item, mCaretakerList);
         mCaretakerSpinner.setAdapter(stringArrayAdapter);
+    }
+
+    private  String generateId() {
+        //This is pieced together from the various answers from this post http://stackoverflow.com/questions/41107/how-to-generate-a-random-alpha-numeric-string
+        Random random = new Random();
+
+        StringBuilder builder = new StringBuilder( ID_LENGTH );
+        for (int i = 0; i < ID_LENGTH; i++) {
+            builder.append(symbols[random.nextInt(symbols.length)]);
+        }
+        return builder.toString();
     }
 
 }
