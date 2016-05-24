@@ -7,25 +7,24 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ListView;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collection;
 
 
 public class CooperationAgreementsFragment extends Fragment {
 
+    private static String[] mAgreementList;
     private FragmentInteractionListener mListener;
+    private ListView mListViewAgreements;
 
     public CooperationAgreementsFragment() {
         // Required empty public constructor
     }
 
-    /**
-     * Use this factory method to create a new instance of
-     * this fragment using the provided parameters.
-     *
-     * @param param1 Parameter 1.
-     * @param param2 Parameter 2.
-     * @return A new instance of fragment CooperationAgreementsFragment.
-     */
-    // TODO: Rename and change types and number of parameters
+
     public static CooperationAgreementsFragment newInstance() {
         CooperationAgreementsFragment fragment = new CooperationAgreementsFragment();
 
@@ -42,15 +41,9 @@ public class CooperationAgreementsFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_cooperation_agreements, container, false);
+        mAgreementList = getContext().getResources().getStringArray(R.array.array_agreements);
     }
 
-    // TODO: Rename method, update argument and hook method into UI event
-    public void onButtonPressed(Uri uri) {
-        if (mListener != null) {
-            mListener.onFragmentInteraction(uri);
-        }
-    }
 
     @Override
     public void onAttach(Context context) {
@@ -69,3 +62,5 @@ public class CooperationAgreementsFragment extends Fragment {
         mListener = null;
     }
 }
+
+
