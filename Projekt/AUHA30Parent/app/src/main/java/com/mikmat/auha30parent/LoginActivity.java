@@ -51,12 +51,12 @@ public class LoginActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 tmpKey = keyValue.getText().toString();
-                checkBaby(v, Integer.parseInt(tmpKey));
+                checkBaby(v, tmpKey);
             }
         });
     }
 
-    private void checkBaby(View view,final int ID) {
+    private void checkBaby(View view,final String ID) {
         LoginView = view;
         startLoading();
 

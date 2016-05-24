@@ -2,10 +2,14 @@ package com.mikmat.auha30parent;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentTransaction;
 import android.support.v4.widget.TextViewCompat;
+import android.util.Log;
 import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -15,6 +19,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -27,11 +32,15 @@ import com.mikmat.auha30parent.Helpers.FirebaseHelper;
 import com.mikmat.auha30parent.Models.Baby;
 
 public class MainActivity extends AppCompatActivity
-        implements NavigationView.OnNavigationItemSelectedListener {
+        implements NavigationView.OnNavigationItemSelectedListener, FragmentInteractionListener {
+
+    private static final String TAG = MainActivity.class.getSimpleName();
+
     private static final String REFBABY = "BabyToReturn";
     static final int LOGIN_RESULT = 100;
     private FirebaseHelper fbtmp;
     private Baby thisBaby;
+    private ViewGroup mContentContainer;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -41,6 +50,8 @@ public class MainActivity extends AppCompatActivity
         setSupportActionBar(toolbar);
 
         fbtmp = new FirebaseHelper(this);
+
+        mContentContainer = (ViewGroup) findViewById(R.id.content_container);
 
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
@@ -66,6 +77,39 @@ public class MainActivity extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+
+        updateContentFromIdentifier(R.id.nav_dashboard, false);
+    }
+
+    public void updateContentFromIdentifier(int identifier, boolean replace) {
+        Fragment fragment = null;
+
+        switch (identifier) {
+            case R.id.nav_dashboard:
+                fragment = BabyDashboardFragment.newInstance();
+                break;
+            case R.id.nav_cooperation_agreements:
+                fragment = CooperationAgreementsFragment.newInstance();
+                break;
+            case R.id.nav_my_childs_examinations:
+                fragment = ChildExaminationsFragment.newInstance();
+                break;
+            case R.id.nav_contact_team:
+                fragment = ContactTeamFragment.newInstance();
+                break;
+            default:
+                Log.e(TAG, "Unknown id: " + identifier);
+                break;
+        }
+
+        if(fragment != null) {
+            FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
+            if(replace) {
+                transaction.replace(R.id.content_container, fragment, fragment.getTag()).addToBackStack(fragment.getTag()).commit();
+            } else {
+                transaction.add(R.id.content_container, fragment, fragment.getTag()).commit();
+            }
+        }
     }
 
     @Override
@@ -112,19 +156,7 @@ public class MainActivity extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_camera) {
-            // Handle the camera action
-        } else if (id == R.id.nav_gallery) {
-
-        } else if (id == R.id.nav_slideshow) {
-
-        } else if (id == R.id.nav_manage) {
-
-        } else if (id == R.id.nav_share) {
-
-        } else if (id == R.id.nav_send) {
-
-        }
+        updateContentFromIdentifier(id, true);
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
@@ -168,5 +200,10 @@ public class MainActivity extends AppCompatActivity
             Intent loginIntent = new Intent(this, LoginActivity.class);
             startActivityForResult(loginIntent, LOGIN_RESULT);
         }
+    }
+
+    @Override
+    public void onFragmentInteraction(Uri uri) {
+
     }
 }

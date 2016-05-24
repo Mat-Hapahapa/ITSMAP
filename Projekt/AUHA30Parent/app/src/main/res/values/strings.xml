@@ -12,5 +12,9 @@
     <string name="login">Login</string>
     <string name="FbBabyRef">Firebase_baby_reference</string>
     <string name="This_Baby">Firebase specific baby</string>
+    <string name="contact_team">Contact Team</string>
+    <string name="my_childs_examinations">My Child\'s Examinations</string>
+    <string name="cooperation_agreements">Cooperation Agreements</string>
+    <string name="homepage">Homepage</string>
 
 </resources>
