@@ -68,7 +68,7 @@ public class LoginActivity extends AppCompatActivity {
                 foundBaby = null;
                 for (DataSnapshot postSnapshot : snapshot.getChildren()) {
                     Baby baby = postSnapshot.getValue(Baby.class);
-                    if (baby.getID() == ID) {
+                    if (baby.getID().equals(ID)) {
                         foundBaby = baby;
                         logInSucces();
                         endLoading(true);

@@ -107,14 +107,12 @@ public class BabyListAdapter extends BaseAdapter implements Filterable {
                 for (Baby b : filterList) {
                     if (b.getName().toUpperCase().contains(constraint.toString().toUpperCase())) {
                         tmpFilterList.add(b);
-                    } else if (b.getCaretaker().toUpperCase().contains(constraint.toString().toUpperCase())) {
+                    } else if (b.getCaretaker() != null && b.getCaretaker().toUpperCase().contains(constraint.toString().toUpperCase())) {
                         tmpFilterList.add(b);
                     } else if (String.valueOf(dateFormat.format(b.getBirthday())).contains(constraint.toString())) {
                         tmpFilterList.add(b);
-                    } else if (isStringInt(constraint.toString())) {
-                        if (String.valueOf(b.getID()).contains(constraint.toString())) {
+                    } else if (b.getID().toUpperCase().contains(constraint.toString().toUpperCase())) {
                             tmpFilterList.add(b);
-                        }
                     }
 
                 }
@@ -131,15 +129,6 @@ public class BabyListAdapter extends BaseAdapter implements Filterable {
         protected void publishResults(CharSequence constraint, FilterResults results) {
             babyList = (ArrayList<Baby>) results.values;
             notifyDataSetChanged();
-        }
-    }
-
-    private boolean isStringInt(String str) {
-        try {
-            Integer.parseInt(str);
-            return true;
-        } catch (NumberFormatException e) {
-            return false;
         }
     }
 }
