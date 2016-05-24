@@ -24,6 +24,9 @@
     <string name="gender"><![CDATA[Køn: ]]></string>
     <string name="caretaker"><![CDATA[Passer: ]]></string>
     <string name="added">Tilføjet</string>
+    <string name="smsMessage"><![CDATA[Kære nye forældre. Hermed jeres personlige login ID til AUH A30 Forældre App: ]]></string>
+    <string name="phonenumber">Telefonnummer</string>
+    <string name="parentname">Forældres navn</string>
 
 
 </resources>

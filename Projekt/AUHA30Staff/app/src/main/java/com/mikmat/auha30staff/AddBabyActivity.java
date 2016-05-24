@@ -1,11 +1,13 @@
 package com.mikmat.auha30staff;
 
+import android.content.DialogInterface;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.telephony.SmsManager;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
@@ -40,6 +42,9 @@ public class AddBabyActivity extends AppCompatActivity {
     private DatePicker mDatePickerBirthday;
     private Button mButtonCreateBaby;
     private Spinner mCaretakerSpinner;
+    private EditText mEditTextParentName;
+    private EditText mEditTextPhoneNr;
+    private EditText mEditTextEmail;
     private ArrayList<String> mCaretakerList = new ArrayList<>();
 
     @Override
@@ -52,6 +57,9 @@ public class AddBabyActivity extends AppCompatActivity {
         mEditTextName = (EditText) findViewById(R.id.edit_name);
         mDatePickerBirthday = (DatePicker) findViewById(R.id.date_birthday);
         mButtonCreateBaby = (Button) findViewById(R.id.button_create_baby);
+        mEditTextParentName = (EditText) findViewById(R.id.parentName);
+        mEditTextPhoneNr = (EditText) findViewById(R.id.phoneNr);
+        mEditTextEmail = (EditText) findViewById(R.id.mail);
 
         mButtonCreateBaby.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -79,42 +87,28 @@ public class AddBabyActivity extends AppCompatActivity {
     }
 
     public void onButtonCreateBabyPressed(){
-        String name = mEditTextName.getText().toString();
-        int day = mDatePickerBirthday.getDayOfMonth();
-        int month = mDatePickerBirthday.getMonth();
-        int year = mDatePickerBirthday.getYear();
-        Spinner genderSpinner = (Spinner) findViewById(R.id.gender_spinner);
-        String gender;
-        switch (genderSpinner.getSelectedItemPosition()) {
-            case 1:
-                gender = genderSpinner.getSelectedItem().toString();
-                break;
-            case 2:
-                gender = genderSpinner.getSelectedItem().toString();
-                break;
-            default:
-                AlertDialog.Builder builder = new AlertDialog.Builder(this);
-                builder.setMessage(R.string.alertGender);
-                builder.setNeutralButton("OK", null);
-                builder.show();
-                return;
-        }
-        Spinner caretakerSpinner = (Spinner) findViewById(R.id.caretaker_spinner);
-        String caretaker = caretakerSpinner.getSelectedItem().toString();
+        Baby baby = generateBaby();
 
-        Calendar calendar = Calendar.getInstance();
-        calendar.set(year, month, day);
-        Baby baby = new Baby();
-        baby.setBirthday(calendar.getTime());
-        baby.setName(name);
-        baby.setGender(gender);
-        baby.setCaretaker(caretaker);
-        baby.setID(generateId());
+        if (baby == null) {
+            return;
+        }
 
         Firebase firebaseRef = new Firebase("https://auha30.firebaseio.com/web/data/Babies");
         Firebase newBabyRef = firebaseRef.push();
         baby.setFirebaseRef(newBabyRef.toString());
         newBabyRef.setValue(baby);
+
+        sendText(baby);
+
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setMessage("ID: " + baby.getID());
+        builder.setNeutralButton("OK", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                exit();
+            }
+        });
+        builder.show();
     }
 
     private void updateCaretaker(ArrayList<String> sortList) {
@@ -139,6 +133,59 @@ public class AddBabyActivity extends AppCompatActivity {
             builder.append(symbols[random.nextInt(symbols.length)]);
         }
         return builder.toString();
+    }
+
+    private Baby generateBaby() {
+        Baby baby = new Baby();
+        String name = mEditTextName.getText().toString();
+        String parentName = mEditTextParentName.getText().toString();
+        String phoneNr = mEditTextPhoneNr.getText().toString();
+        String email = mEditTextEmail.getText().toString();
+
+        int day = mDatePickerBirthday.getDayOfMonth();
+        int month = mDatePickerBirthday.getMonth();
+        int year = mDatePickerBirthday.getYear();
+        Spinner genderSpinner = (Spinner) findViewById(R.id.gender_spinner);
+        String gender;
+        switch (genderSpinner.getSelectedItemPosition()) {
+            case 1:
+                gender = genderSpinner.getSelectedItem().toString();
+                break;
+            case 2:
+                gender = genderSpinner.getSelectedItem().toString();
+                break;
+            default:
+                AlertDialog.Builder builder = new AlertDialog.Builder(this);
+                builder.setMessage(R.string.alertGender);
+                builder.setNeutralButton("OK", null);
+                builder.show();
+                return baby = null;
+        }
+        Spinner caretakerSpinner = (Spinner) findViewById(R.id.caretaker_spinner);
+        String caretaker = caretakerSpinner.getSelectedItem().toString();
+
+        Calendar calendar = Calendar.getInstance();
+        calendar.set(year, month, day);
+
+        baby.setBirthday(calendar.getTime());
+        baby.setName(name);
+        baby.setGender(gender);
+        baby.setCaretaker(caretaker);
+        baby.setID(generateId());
+        baby.setParentName(parentName);
+        baby.setPhoneNr(phoneNr);
+        baby.setEmail(email);
+
+        return baby;
+    };
+
+    private void sendText (Baby b) {
+        SmsManager smsManager = SmsManager.getDefault();
+        smsManager.sendTextMessage(b.getPhoneNr(), null, R.string.smsMessage + b.getID(), null, null);
+    }
+
+    private void exit() {
+        finish();
     }
 
 }

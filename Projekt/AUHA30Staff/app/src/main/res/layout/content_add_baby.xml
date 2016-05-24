@@ -15,7 +15,8 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="wrap_content"
+        android:fillViewport="true">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -44,6 +45,22 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/caretaker_spinner"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/parentName"
+                android:hint="@string/parentname"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/phoneNr"
+                android:hint="@string/phonenumber"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/mail"
+                android:hint="Email"/>
 
             <Button
                 android:id="@+id/button_create_baby"

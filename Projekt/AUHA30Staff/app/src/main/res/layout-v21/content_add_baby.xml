@@ -12,13 +12,24 @@
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context=".AddBabyActivity"
     tools:showIn="@layout/activity_add_baby">
-
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/edit_name"
         android:hint="Navn"/>
 
+
+    <!--
+     Note: http://stackoverflow.com/questions/27563874/how-to-hide-calenderview-from-datepicker-in-api-21
+    -->
     <DatePicker
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -37,11 +48,28 @@
         android:layout_height="wrap_content"
         android:id="@+id/caretaker_spinner"/>
 
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/parentName"
+        android:hint="@string/parentname"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/phoneNr"
+        android:hint="@string/phonenumber"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mail"
+        android:hint="Email"/>
+
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom"
         android:id="@+id/button_create_baby"
         android:text="create"/>
-
+        </LinearLayout>
+    </ScrollView>
 </LinearLayout>
