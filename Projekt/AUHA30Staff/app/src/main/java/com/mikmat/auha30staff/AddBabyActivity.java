@@ -2,8 +2,6 @@ package com.mikmat.auha30staff;
 
 import android.content.DialogInterface;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
@@ -142,40 +140,49 @@ public class AddBabyActivity extends AppCompatActivity {
         String phoneNr = mEditTextPhoneNr.getText().toString();
         String email = mEditTextEmail.getText().toString();
 
-        int day = mDatePickerBirthday.getDayOfMonth();
-        int month = mDatePickerBirthday.getMonth();
-        int year = mDatePickerBirthday.getYear();
-        Spinner genderSpinner = (Spinner) findViewById(R.id.gender_spinner);
-        String gender;
-        switch (genderSpinner.getSelectedItemPosition()) {
-            case 1:
-                gender = genderSpinner.getSelectedItem().toString();
-                break;
-            case 2:
-                gender = genderSpinner.getSelectedItem().toString();
-                break;
-            default:
-                AlertDialog.Builder builder = new AlertDialog.Builder(this);
-                builder.setMessage(R.string.alertGender);
-                builder.setNeutralButton("OK", null);
-                builder.show();
-                return baby = null;
+        if (name.equals("") || parentName.equals("") || phoneNr.equals("") || email.equals("")) {
+            AlertDialog.Builder builder = new AlertDialog.Builder(this);
+            builder.setMessage(R.string.alertMissingInfo);
+            builder.setNeutralButton("OK", null);
+            builder.show();
+            baby = null;
+        } else {
+            int day = mDatePickerBirthday.getDayOfMonth();
+            int month = mDatePickerBirthday.getMonth();
+            int year = mDatePickerBirthday.getYear();
+            Spinner genderSpinner = (Spinner) findViewById(R.id.gender_spinner);
+            String gender;
+            switch (genderSpinner.getSelectedItemPosition()) {
+                case 1:
+                    gender = genderSpinner.getSelectedItem().toString();
+                    break;
+                case 2:
+                    gender = genderSpinner.getSelectedItem().toString();
+                    break;
+                default:
+                    AlertDialog.Builder builder = new AlertDialog.Builder(this);
+                    builder.setMessage(R.string.alertGender);
+                    builder.setNeutralButton("OK", null);
+                    builder.show();
+                    return baby = null;
+            }
+            Spinner caretakerSpinner = (Spinner) findViewById(R.id.caretaker_spinner);
+            String caretaker = caretakerSpinner.getSelectedItem().toString();
+
+            Calendar calendar = Calendar.getInstance();
+            calendar.set(year, month, day);
+
+            baby.setBirthday(calendar.getTime());
+            baby.setName(name);
+            baby.setGender(gender);
+            baby.setCaretaker(caretaker);
+            baby.setID(generateId());
+            baby.setParentName(parentName);
+            baby.setPhoneNr(phoneNr);
+            baby.setEmail(email);
+
+            return baby;
         }
-        Spinner caretakerSpinner = (Spinner) findViewById(R.id.caretaker_spinner);
-        String caretaker = caretakerSpinner.getSelectedItem().toString();
-
-        Calendar calendar = Calendar.getInstance();
-        calendar.set(year, month, day);
-
-        baby.setBirthday(calendar.getTime());
-        baby.setName(name);
-        baby.setGender(gender);
-        baby.setCaretaker(caretaker);
-        baby.setID(generateId());
-        baby.setParentName(parentName);
-        baby.setPhoneNr(phoneNr);
-        baby.setEmail(email);
-
         return baby;
     };
 

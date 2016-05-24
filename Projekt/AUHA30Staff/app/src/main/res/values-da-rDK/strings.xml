@@ -27,6 +27,7 @@
     <string name="smsMessage"><![CDATA[Kære nye forældre. Hermed jeres personlige login ID til AUH A30 Forældre App: ]]></string>
     <string name="phonenumber">Telefonnummer</string>
     <string name="parentname">Forældres navn</string>
+    <string name="alertMissingInfo">Felter mangler at blive udfyldt</string>
 
 
 </resources>
