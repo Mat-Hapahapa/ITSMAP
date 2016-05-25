@@ -1,19 +1,25 @@
 package com.mikmat.auha30parent;
 
 import android.content.Context;
+import android.content.Intent;
+import android.content.pm.PackageManager;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.text.Html;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
 
+import java.util.List;
 
 
 public class ContactTeamFragment extends Fragment {
 
 
     private FragmentInteractionListener mListener;
+    private View view;
 
     public ContactTeamFragment() {
         // Required empty public constructor
@@ -44,7 +50,23 @@ public class ContactTeamFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_contact_team, container, false);
+        view = inflater.inflate(R.layout.fragment_contact_team, container, false);
+
+        TextView mail = (TextView) view.findViewById(R.id.mail);
+        mail.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent emailIntent = new Intent(Intent.ACTION_VIEW);
+
+                emailIntent.setData(Uri.parse("mailto:boerneafdelinga@auh.rm.dk"));
+                if (isIntentSafe(emailIntent))
+                {
+                    startActivity(emailIntent);
+                }
+            }
+        });
+
+        return view;
     }
 
     // TODO: Rename method, update argument and hook method into UI event
@@ -70,4 +92,18 @@ public class ContactTeamFragment extends Fragment {
         super.onDetach();
         mListener = null;
     }
+    public Boolean isIntentSafe(Intent intent){
+        final PackageManager packageManager = getActivity().getPackageManager();
+        List activities = packageManager.queryIntentActivities(intent, PackageManager.MATCH_DEFAULT_ONLY);
+        return activities.size() > 0;
+    }
 }
+
+/*
+    Intent phoneIntent = new Intent(Intent.ACTION_DIAL);
+    intent.setData(Uri.parse("tel:" + phonenumber as string));
+                    if (isIntentSafe(phoneIntent))
+                {
+                    startActivity(phoneIntent);
+                }
+ */

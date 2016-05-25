@@ -39,7 +39,6 @@ public class MainActivity extends AppCompatActivity
 
     private static final String REFBABY = "BabyToReturn";
     static final int LOGIN_RESULT = 100;
-    private FirebaseHelper fbtmp;
     private Baby thisBaby;
     private ViewGroup mContentContainer;
 
@@ -50,19 +49,7 @@ public class MainActivity extends AppCompatActivity
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        fbtmp = new FirebaseHelper(this);
-
         mContentContainer = (ViewGroup) findViewById(R.id.content_container);
-
-
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                  Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                         .setAction("Action", null).show();
-            }
-        });
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
@@ -73,7 +60,9 @@ public class MainActivity extends AppCompatActivity
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
 
-        updateContentFromIdentifier(R.id.nav_dashboard, false);
+        if (savedInstanceState == null) {
+            updateContentFromIdentifier(R.id.nav_dashboard, false);
+        }
     }
 
     public void updateContentFromIdentifier(int identifier, boolean replace) {
@@ -97,9 +86,9 @@ public class MainActivity extends AppCompatActivity
                 break;
         }
 
-        if(fragment != null) {
+        if (fragment != null) {
             FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
-            if(replace) {
+            if (replace) {
                 transaction.replace(R.id.content_container, fragment, fragment.getTag()).addToBackStack(fragment.getTag()).commit();
             } else {
                 transaction.add(R.id.content_container, fragment, fragment.getTag()).commit();
@@ -111,6 +100,7 @@ public class MainActivity extends AppCompatActivity
     protected void onResume() {
         super.onResume();
         isLoggedIn();
+        stopService(new Intent(this, BabyService.class));
     }
 
     @Override

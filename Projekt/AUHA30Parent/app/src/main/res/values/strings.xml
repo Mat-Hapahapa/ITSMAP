@@ -16,6 +16,7 @@
     <string name="my_childs_examinations">My Child\'s Examinations</string>
     <string name="cooperation_agreements">Cooperation Agreements</string>
     <string name="homepage">Homepage</string>
+    <string name="serviceUpdate">Information about your baby has been changed</string>
     <string-array name="array_agreements">
         <item>Hygiene Of My Child</item>
         <item>Food For My Newborn Child</item>

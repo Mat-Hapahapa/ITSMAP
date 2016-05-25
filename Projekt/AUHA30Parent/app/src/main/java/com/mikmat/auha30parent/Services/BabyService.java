@@ -44,7 +44,7 @@ public class BabyService extends Service {
 
             @Override
             public void onChildChanged(DataSnapshot dataSnapshot, String s) {
-                showNotification("Updated child");
+                showNotification(getString(R.string.serviceUpdate));
             }
 
             @Override
@@ -78,6 +78,7 @@ public class BabyService extends Service {
         builder.setLargeIcon(BitmapFactory.decodeResource(getResources(), R.mipmap.ic_launcher));
         builder.setContentTitle("AUH A30 Parent App");
         builder.setContentText(msg);
+        builder.setAutoCancel(true);
         NotificationManager notificationManager = (NotificationManager) getSystemService(NOTIFICATION_SERVICE);
         notificationManager.notify(1, builder.build());
     }
