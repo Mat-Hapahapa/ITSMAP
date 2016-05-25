@@ -1,6 +1,7 @@
 package com.mikmat.auha30staff;
 
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
@@ -44,10 +45,16 @@ public class AddBabyActivity extends AppCompatActivity {
     private EditText mEditTextPhoneNr;
     private EditText mEditTextEmail;
     private ArrayList<String> mCaretakerList = new ArrayList<>();
+    private Baby mBaby;
+    private boolean editState = false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        Intent intent = getIntent();
+        mBaby = (Baby)intent.getSerializableExtra(AppPrefs.BABYKEY);
+        editState = mBaby != null;
         setContentView(R.layout.activity_add_baby);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
@@ -81,6 +88,18 @@ public class AddBabyActivity extends AppCompatActivity {
 
             }
         });
+
+        if(editState) {
+            mEditTextName.setText(mBaby.getName());
+            mEditTextEmail.setText(mBaby.getEmail());
+            mEditTextParentName.setText(mBaby.getParentName());
+            mEditTextPhoneNr.setText(mBaby.getPhoneNr());
+            Calendar calendar = Calendar.getInstance();
+            calendar.setTime(mBaby.getBirthday());
+            mDatePickerBirthday.updateDate(calendar.get(Calendar.YEAR),calendar.get(Calendar.MONTH), calendar.get(Calendar.DAY_OF_MONTH));
+            mCaretakerSpinner.setSelection(mCaretakerList.indexOf(mBaby.getCaretaker()));
+
+        }
 
     }
 

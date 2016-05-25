@@ -61,6 +61,10 @@ public class BabyDetailActivity extends AppCompatActivity {
 
     public void onButtonEdit() {
         Toast.makeText(this, "You can't do this yet, but soon...", Toast.LENGTH_SHORT).show();
+        Intent intent = new Intent(this, AddBabyActivity.class);
+        intent.putExtra(AppPrefs.BABYKEY, mBaby);
+
+        startActivity(intent);
     }
 
     public void onButtonDischarge() {
