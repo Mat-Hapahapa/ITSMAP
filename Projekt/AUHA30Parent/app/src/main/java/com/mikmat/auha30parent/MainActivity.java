@@ -30,6 +30,7 @@ import com.firebase.client.FirebaseError;
 import com.firebase.client.ValueEventListener;
 import com.mikmat.auha30parent.Helpers.FirebaseHelper;
 import com.mikmat.auha30parent.Models.Baby;
+import com.mikmat.auha30parent.Services.BabyService;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener, FragmentInteractionListener {
@@ -60,12 +61,6 @@ public class MainActivity extends AppCompatActivity
             public void onClick(View view) {
                   Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
                          .setAction("Action", null).show();
-            /*
-                     Baby tmpBaby = new Baby();
-                     tmpBaby.setID(123);
-                    tmpBaby.setName("Test2");
-                     fbtmp.CreateBaby(tmpBaby);
-                     */
             }
         });
 
@@ -205,5 +200,14 @@ public class MainActivity extends AppCompatActivity
     @Override
     public void onFragmentInteraction(Uri uri) {
 
+    }
+
+    @Override
+    protected void onStop() {
+        SharedPreferences sharedPreferences = getSharedPreferences(getString(R.string.sharedPreferences), MODE_PRIVATE);
+        if (sharedPreferences.getBoolean(getString(R.string.LOGGED_IN), false)) {
+            startService(new Intent(this, BabyService.class));
+        }
+        super.onStop();
     }
 }

@@ -13,6 +13,8 @@ public class Baby {
     private String email;
     private String caretaker;
     private String firebaseRef;
+    private String PhoneNr;
+    private String ParentName;
 
     public Baby(){}
 
@@ -79,5 +81,21 @@ public class Baby {
 
     public void setGender(String gender) {
         this.gender = gender;
+    }
+
+    public String getPhoneNr() {
+        return PhoneNr;
+    }
+
+    public void setPhoneNr(String phoneNr) {
+        PhoneNr = phoneNr;
+    }
+
+    public String getParentName() {
+        return ParentName;
+    }
+
+    public void setParentName(String parentName) {
+        ParentName = parentName;
     }
 }

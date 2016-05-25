@@ -51,24 +51,6 @@ public class MainActivity extends AppCompatActivity
         Firebase.setAndroidContext(this);
         rootRef = new Firebase("https://auha30.firebaseio.com/web/data/Babies");
 
-        searchField = (EditText) findViewById(R.id.searchKey);
-        searchField.addTextChangedListener(new TextWatcher() {
-            @Override
-            public void beforeTextChanged(CharSequence s, int start, int count, int after) {
-
-            }
-
-            @Override
-            public void onTextChanged(CharSequence s, int start, int before, int count) {
-                MainActivity.this.babyListAdapter.getFilter().filter(s);
-            }
-
-            @Override
-            public void afterTextChanged(Editable s) {
-
-            }
-        });
-
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
                 this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
@@ -77,6 +59,8 @@ public class MainActivity extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+
+        updateListView();
 
         buttonAddBaby = (Button) findViewById(R.id.button_add_baby);
         buttonAddBaby.setOnClickListener(new View.OnClickListener() {
@@ -100,6 +84,24 @@ public class MainActivity extends AppCompatActivity
             @Override
             public void onCancelled(FirebaseError firebaseError) {
                 System.out.println("The read failed: " + firebaseError.getMessage());
+            }
+        });
+
+        searchField = (EditText) findViewById(R.id.searchKey);
+        searchField.addTextChangedListener(new TextWatcher() {
+            @Override
+            public void beforeTextChanged(CharSequence s, int start, int count, int after) {
+
+            }
+
+            @Override
+            public void onTextChanged(CharSequence s, int start, int before, int count) {
+                MainActivity.this.babyListAdapter.getFilter().filter(s);
+            }
+
+            @Override
+            public void afterTextChanged(Editable s) {
+
             }
         });
     }

@@ -28,6 +28,7 @@
     <string name="phonenumber">Telefonnummer</string>
     <string name="parentname">Forældres navn</string>
     <string name="alertMissingInfo">Felter mangler at blive udfyldt</string>
+    <string name="Create">Opret</string>
 
 
 </resources>
