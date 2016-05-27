@@ -29,6 +29,7 @@
     <string name="parentname">Forældres navn</string>
     <string name="alertMissingInfo">Felter mangler at blive udfyldt</string>
     <string name="Create">Opret</string>
+    <string name="Update">Opdater</string>
     <string name="udskriv_baby">Udskriv Baby</string>
     <string name="parent">Forælder: </string>
     <string name="phone">Phone:</string>

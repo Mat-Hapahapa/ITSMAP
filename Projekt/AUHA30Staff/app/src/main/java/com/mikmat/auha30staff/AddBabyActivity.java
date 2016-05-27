@@ -5,7 +5,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.Toolbar;
 import android.telephony.SmsManager;
 import android.view.View;
@@ -48,7 +47,7 @@ public class AddBabyActivity extends AppCompatActivity {
     private EditText mEditTextEmail;
     private ArrayList<String> mCaretakerList = new ArrayList<>();
     private Baby mBaby;
-    private boolean editState = false;
+    private boolean mEditState = false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -56,7 +55,10 @@ public class AddBabyActivity extends AppCompatActivity {
 
         Intent intent = getIntent();
         mBaby = (Baby)intent.getSerializableExtra(AppPrefs.BABYKEY);
-        editState = mBaby != null;
+        mEditState = mBaby != null;
+        if(mEditState) {
+            mButtonCreateBaby.setText(R.string.Update);
+        }
         setContentView(R.layout.activity_add_baby);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
@@ -95,7 +97,7 @@ public class AddBabyActivity extends AppCompatActivity {
 
     }
     private void prepareEditState() {
-        if(editState) {
+        if(mEditState) {
             mEditTextName.setText(mBaby.getName());
             mEditTextEmail.setText(mBaby.getEmail());
             mEditTextParentName.setText(mBaby.getParentName());
@@ -119,7 +121,7 @@ public class AddBabyActivity extends AppCompatActivity {
 
     public void onButtonCreateBabyPressed(){
         Baby baby = generateBaby();
-        if(editState) {
+        if(mEditState) {
             Firebase ref = new Firebase(mBaby.getFirebaseRef());
             baby.setFirebaseRef(mBaby.getFirebaseRef());
             baby.setID(mBaby.getID());

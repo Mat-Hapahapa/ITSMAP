@@ -71,7 +71,8 @@
         android:layout_height="wrap_content"
         android:layout_gravity="bottom"
         android:id="@+id/button_create_baby"
-        android:text="@string/Create"/>
+        android:text="@string/Create"
+        android:textAllCaps="false"/>
         </LinearLayout>
     </ScrollView>
 </LinearLayout>

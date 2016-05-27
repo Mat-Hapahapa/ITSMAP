@@ -28,6 +28,7 @@
     <string name="parentname">Parents name</string>
     <string name="alertMissingInfo">Please fill out all fields</string>
     <string name="Create">Create</string>
+    <string name="Update">Update</string>
 
     <string name="serviceUpdate">Information about your baby has been changed</string>
 
