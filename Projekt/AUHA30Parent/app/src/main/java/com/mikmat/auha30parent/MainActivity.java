@@ -90,7 +90,8 @@ public class MainActivity extends AppCompatActivity
         if (fragment != null) {
             FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
             if (replace) {
-                transaction.replace(R.id.content_container, fragment, fragment.getTag()).addToBackStack(fragment.getTag()).commit();
+                transaction.setCustomAnimations(R.anim.slide_left_in, R.anim.slide_left_out);
+                transaction.replace(R.id.content_container, fragment, fragment.getTag()).commit();
             } else {
                 transaction.add(R.id.content_container, fragment, fragment.getTag()).commit();
             }
@@ -204,7 +205,9 @@ public class MainActivity extends AppCompatActivity
 
         if (fragment != null) {
             FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
-            transaction.replace(R.id.content_container, fragment, fragment.getTag()).addToBackStack(fragment.getTag()).commit();
+            transaction.setCustomAnimations(R.anim.slide_left_in, R.anim.slide_left_out, R.anim.slide_right_in, R.anim.slide_right_out);
+            transaction.replace(R.id.content_container, fragment, fragment.getTag()).addToBackStack(fragment.getTag());
+            transaction.commit();
         }
     }
 
