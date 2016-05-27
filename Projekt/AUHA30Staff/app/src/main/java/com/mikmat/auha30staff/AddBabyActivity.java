@@ -56,9 +56,7 @@ public class AddBabyActivity extends AppCompatActivity {
         Intent intent = getIntent();
         mBaby = (Baby)intent.getSerializableExtra(AppPrefs.BABYKEY);
         mEditState = mBaby != null;
-        if(mEditState) {
-            mButtonCreateBaby.setText(R.string.Update);
-        }
+
         setContentView(R.layout.activity_add_baby);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
@@ -71,6 +69,9 @@ public class AddBabyActivity extends AppCompatActivity {
         mEditTextEmail = (EditText) findViewById(R.id.mail);
         mGenderSpinner = (Spinner) findViewById(R.id.gender_spinner);
 
+        if(mEditState) {
+            mButtonCreateBaby.setText(R.string.Update);
+        }
         mButtonCreateBaby.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
