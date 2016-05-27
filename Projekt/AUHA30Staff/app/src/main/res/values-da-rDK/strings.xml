@@ -35,6 +35,14 @@
     <string name="phone">Phone:</string>
     <string name="mail">E-mail:</string>
     <string name="toast_contact_warning">Din enhed understøtter ikke denne handling</string>
+    <string name="createbaby">Skab Baby</string>
+    <string name="serviceUpdate">Information omkring din baby er blevet ændret</string>
+    <string name="title_activity_baby_detail_drawer">Baby detaljer</string>
+    <string name="administratePersonal">Administrer personale</string>
+    <string name="enterName">Indtast dit navn</string>
+    <string name="create">Opret</string>
+    <string name="nameHint">Navn</string>
+    <string name="Title_Edit_Baby">Rediger baby</string>
 
 
 </resources>

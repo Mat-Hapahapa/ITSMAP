@@ -13,12 +13,12 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Indtast dit navn"
+        android:hint="@string/enterName"
         android:id="@+id/caretaker_name"/>
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Opret"
+        android:text="@string/create"
         android:id="@+id/createCaretaker"/>
 
 </LinearLayout>

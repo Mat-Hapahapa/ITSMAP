@@ -27,7 +27,7 @@
                 android:id="@+id/edit_name"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Navn" />
+                android:hint="@string/nameHint" />
 
             <DatePicker
                 android:id="@+id/date_birthday"

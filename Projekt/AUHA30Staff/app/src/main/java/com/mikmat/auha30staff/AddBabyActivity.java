@@ -71,6 +71,7 @@ public class AddBabyActivity extends AppCompatActivity {
 
         if(mEditState) {
             mButtonCreateBaby.setText(R.string.Update);
+            toolbar.setTitle(R.string.Title_Edit_Baby);
         }
         mButtonCreateBaby.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -107,16 +108,11 @@ public class AddBabyActivity extends AppCompatActivity {
             calendar.setTime(mBaby.getBirthday());
             mDatePickerBirthday.updateDate(calendar.get(Calendar.YEAR),calendar.get(Calendar.MONTH), calendar.get(Calendar.DAY_OF_MONTH));
             mCaretakerSpinner.setSelection(mCaretakerList.indexOf(mBaby.getCaretaker()));
-            String[] genders = getResources().getStringArray(R.array.array_gender);
-            int index = -1;
-            for (int i = 0; i < genders.length; i++) {
-                if(genders[i].equals(mBaby.getGender()))
-                {
-                    index = i;
-                    break;
-                }
+            if (mBaby.getGender().equals("Female") || mBaby.getGender().equals("Pige")){
+                mGenderSpinner.setSelection(1);
+            } else {
+                mGenderSpinner.setSelection(2);
             }
-            mGenderSpinner.setSelection(index);
         }
     }
 

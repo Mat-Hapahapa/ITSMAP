@@ -7,7 +7,7 @@
     <string name="action_settings">Settings</string>
     <string name="search">search</string>
     <string name="SearchKey">Search</string>
-    <string name="title_activity_add_baby">AddBabyActivity</string>
+    <string name="title_activity_add_baby">Add Baby</string>
     <string-array name="array_gender">
         <item>Choose Gender</item>
         <item>Female</item>
@@ -38,5 +38,11 @@
     <string name="phone">Phone:</string>
     <string name="mail">Mail:</string>
     <string name="toast_contact_warning">Your device does not support this action</string>
+    <string name="createbaby">Create baby</string>
+    <string name="administratePersonal">Administrate personal</string>
+    <string name="enterName">Enter your name</string>
+    <string name="create">Create</string>
+    <string name="nameHint">Name</string>
+    <string name="Title_Edit_Baby">Edit baby</string>
 
 </resources>
