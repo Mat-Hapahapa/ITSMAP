@@ -133,6 +133,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:id="@+id/submitAgreement"
-        android:text="@string/submit"/>
+        android:text="@string/submit"
+        android:textAllCaps="false"/>
     </RelativeLayout>
 </LinearLayout>

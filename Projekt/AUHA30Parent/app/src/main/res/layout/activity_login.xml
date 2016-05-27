@@ -13,6 +13,7 @@
         android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
+        android:gravity="center"
         android:id="@+id/KeyInput"
         android:layout_below="@+id/EnterText"/>
     <Button
@@ -21,7 +22,8 @@
         android:layout_below="@+id/KeyInput"
         android:layout_centerHorizontal="true"
         android:text="@string/login"
-        android:id="@+id/loginBtn"/>
+        android:id="@+id/loginBtn"
+        android:textAllCaps="false"/>
     <ProgressBar
         android:id="@+id/progressBar"
         style="?android:attr/progressBarStyleLarge"
