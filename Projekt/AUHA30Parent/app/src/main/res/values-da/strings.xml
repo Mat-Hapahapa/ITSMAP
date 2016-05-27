@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AUH A30 Parent</string>
+    <string name="FbBabyRef">Firebase_baby_reference</string>
+    <string name="LOGGED_IN">LoggedIn</string>
+    <string name="This_Baby">Firebase specific baby</string>
+    <string name="action_settings">Indstillinger</string>
+    <string name="contact_team">Kontakt</string>
+    <string name="cooperation_agreements">Samarbejdsaftale</string>
+    <string name="enter_your_key">Indtast nøgle</string>
+    <string name="hello_blank_fragment">Hej blankt fragment</string>
+    <string name="homepage">Hjem</string>
+    <string name="login">Login</string>
+    <string name="my_childs_examinations">Mit Barns Undersøgelser </string>
+    <string name="navigation_drawer_close">Luk navigation</string>
+    <string name="navigation_drawer_open">Åbn navigation</string>
+    <string name="serviceUpdate">Information omkring din baby er ændret</string>
+    <string name="sharedPreferences">sharedPreferences</string>
+    <string name="newBornFood">Mad til mit nyfødte barn</string>
+    <string name="giveFood">Give mad på sonde</string>
+    <string name="mixMilk">Blande FM85 i mælken</string>
+    <string name="Vitamins">Give vitaminer</string>
+    <string name="sonde">Tjekke sonde</string>
+    <string name="Hygiene">Hygiejne af mit nyfødte barn</string>
+    <string name="changeDiaper">Bleskift</string>
+    <string name="washBaby">Daglig vask af barnet</string>
+    <string name="bath">Bad</string>
+    <string name="cleaningAcc">Daglig rengøring af sutter/tryner/masker</string>
+    <string name="cleanCribb">Daglig rengøring af kuvøse/vugge</string>
+    <string name="other">Andet</string>
+    <string name="freetext">Fritekst</string>
+    <string name="freeTextHeadline">Fritekst her:</string>
+    <string name="warmMilk">Varme mælk</string>
+    <string name="NIDCAP">NIDCAP</string>
+    <string name="contact">Kontakt</string>
+    <string name="intensiv">Nyfødt og Børneintensivt Afsnit A30</string>
+    <string name="hospital">Aarhus Universitetshospital Skejby</string>
+    <string name="street">Palle Juul-Jensens Boulevard 99</string>
+    <string name="menu_text">AUH A30 Parent</string>
+
+    <string-array name="array_agreements">
+        <item> Mad til mit nyfødte barn</item>
+        <item>Hygiejne af mit nyfødte barn</item>
+        <item>Mit barns tegn, signaler og behov</item>
+        <item>Andet</item>
+    </string-array>
+    <string-array name="array_schemaSpinner">
+        <item>Nurse varetager</item>
+        <item>Mom varetager</item>
+        <item>Dad varetager</item>
+    </string-array>
+    <string name="mail">boerneafdelinga@auh.rm.dk</string>
+    <string name="address">8200 Aarhus N</string>
+    <string name="submit">Gem</string>
+</resources>

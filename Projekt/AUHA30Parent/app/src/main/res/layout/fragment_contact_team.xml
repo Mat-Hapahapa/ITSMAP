@@ -5,32 +5,31 @@
     tools:context="com.mikmat.auha30parent.ContactTeamFragment"
     android:orientation="vertical">
 
-    <!-- TODO: Update blank fragment layout -->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textStyle="bold"
         android:textSize="15sp"
-        android:text="Kontakt" />
+        android:text="@string/contact" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Nyfødt og Børneintensivt Afsnit A30"
+        android:text="@string/intensiv"
         android:layout_marginTop="10dp"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Aarhus Universitetshospital Skejby"/>
+        android:text="@string/hospital"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Palle Juul-Jensens Boulevard 99"/>
+        android:text="@string/street"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="8200 Aarhus N"/>
+        android:text="@string/address"/>
 
     <View android:layout_height="1dp"
         android:layout_width="match_parent"
@@ -54,6 +53,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:id="@+id/phoneAmbulatorim"
         android:text="Tlf. ambulatorium: 78 45 17 43"
         android:layout_marginTop="10dp"/>
     <TextView
@@ -68,6 +68,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:id="@+id/phoneBed"
         android:text="Tlf. sengeafsnit: 78 45 17 31"
         android:layout_marginTop="10dp"/>
 

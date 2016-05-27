@@ -18,10 +18,41 @@
     <string name="homepage">Homepage</string>
     <string name="serviceUpdate">Information about your baby has been changed</string>
     <string-array name="array_agreements">
-        <item>Hygiene Of My Child</item>
         <item>Food For My Newborn Child</item>
+        <item>Hygiene Of My Child</item>
         <item>My Newborn Childs Signals</item>
-        <item>Circadian Rhythm Plan</item>
+        <item>Other</item>
     </string-array>
+    <string-array name="array_schemaSpinner">
+        <item>Nurse handles</item>
+        <item>Mom handles</item>
+        <item>Dad handles</item>
+    </string-array>
+
+    <string name="newBornFood">Food for my newborn child</string>
+    <string name="giveFood">Give food through probe</string>
+    <string name="mixMilk">Mix FM85 with milk</string>
+    <string name="warmMilk">Warm mil</string>
+    <string name="Vitamins">Give vitamins</string>
+    <string name="sonde">Check probe</string>
+    <string name="Hygiene">Hygiene of my newborn child</string>
+    <string name="changeDiaper">diaper change</string>
+    <string name="washBaby">Daily baby bath</string>
+    <string name="bath">Bathing</string>
+    <string name="cleaningAcc">Daily wash of pacifier/snouts/masks</string>
+    <string name="cleanCribb">Daily wash of incubator/cradle</string>
+    <string name="NIDCAP">NIDCAP</string>
+    <string name="other">Other</string>
+    <string name="freetext">freetext here</string>
+    <string name="freeTextHeadline">Free Text here:</string>
+    <string name="contact">Kontakt</string>
+    <string name="intensiv">Nyfødt og Børneintensivt Afsnit A30</string>
+    <string name="hospital">Aarhus Universitetshospital Skejby</string>
+    <string name="street">Palle Juul-Jensens Boulevard 99</string>
+    <string name="address">8200 Aarhus N</string>
+    <string name="mail">boerneafdelinga@auh.rm.dk</string>
+    <string name="menu_text">AUH A30 Parent</string>
+    <string name="hello_blank_fragment">hello</string>
+    <string name="submit">Submit</string>
 
 </resources>

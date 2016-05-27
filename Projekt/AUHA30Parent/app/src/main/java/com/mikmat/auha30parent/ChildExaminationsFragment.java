@@ -17,15 +17,6 @@ public class ChildExaminationsFragment extends Fragment {
         // Required empty public constructor
     }
 
-    /**
-     * Use this factory method to create a new instance of
-     * this fragment using the provided parameters.
-     *
-     * @param param1 Parameter 1.
-     * @param param2 Parameter 2.
-     * @return A new instance of fragment ChildExaminationsFragment.
-     */
-    // TODO: Rename and change types and number of parameters
     public static ChildExaminationsFragment newInstance() {
         ChildExaminationsFragment fragment = new ChildExaminationsFragment();
 
@@ -45,7 +36,6 @@ public class ChildExaminationsFragment extends Fragment {
         return inflater.inflate(R.layout.fragment_child_examinations, container, false);
     }
 
-    // TODO: Rename method, update argument and hook method into UI event
     public void onButtonPressed(Uri uri) {
         if (mListener != null) {
             mListener.onFragmentInteraction(uri);

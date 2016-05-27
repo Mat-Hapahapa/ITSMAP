@@ -25,15 +25,6 @@ public class ContactTeamFragment extends Fragment {
         // Required empty public constructor
     }
 
-    /**
-     * Use this factory method to create a new instance of
-     * this fragment using the provided parameters.
-     *
-     * @param param1 Parameter 1.
-     * @param param2 Parameter 2.
-     * @return A new instance of fragment ContactTeamFragment.
-     */
-    // TODO: Rename and change types and number of parameters
     public static ContactTeamFragment newInstance() {
         ContactTeamFragment fragment = new ContactTeamFragment();
 
@@ -66,10 +57,35 @@ public class ContactTeamFragment extends Fragment {
             }
         });
 
+        TextView phoneA = (TextView) view.findViewById(R.id.phoneAmbulatorim);
+        phoneA.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent phoneIntent = new Intent(Intent.ACTION_DIAL);
+                phoneIntent.setData(Uri.parse("tel:" + "78451743"));
+                if (isIntentSafe(phoneIntent))
+                {
+                    startActivity(phoneIntent);
+                }
+            }
+        });
+
+        TextView phoneB = (TextView) view.findViewById(R.id.phoneBed);
+        phoneB.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent phoneIntent = new Intent(Intent.ACTION_DIAL);
+                phoneIntent.setData(Uri.parse("tel:" + "78451731"));
+                if (isIntentSafe(phoneIntent))
+                {
+                    startActivity(phoneIntent);
+                }
+            }
+        });
+
         return view;
     }
 
-    // TODO: Rename method, update argument and hook method into UI event
     public void onButtonPressed(Uri uri) {
         if (mListener != null) {
             mListener.onFragmentInteraction(uri);
@@ -98,12 +114,3 @@ public class ContactTeamFragment extends Fragment {
         return activities.size() > 0;
     }
 }
-
-/*
-    Intent phoneIntent = new Intent(Intent.ACTION_DIAL);
-    intent.setData(Uri.parse("tel:" + phonenumber as string));
-                    if (isIntentSafe(phoneIntent))
-                {
-                    startActivity(phoneIntent);
-                }
- */

@@ -22,6 +22,7 @@ public class CooperationAgreementsFragment extends Fragment implements AdapterVi
     private static String[] mAgreementList;
     private FragmentInteractionListener mListener;
     private ListView mListViewAgreements;
+    private AgreementAdapter adapter;
 
     public CooperationAgreementsFragment() {
         // Required empty public constructor
@@ -50,7 +51,7 @@ public class CooperationAgreementsFragment extends Fragment implements AdapterVi
         mListViewAgreements = (ListView) rootView.findViewById(R.id.list_agreements);
         mListViewAgreements.setOnItemClickListener(this);
 
-        AgreementAdapter adapter = new AgreementAdapter(inflater);
+        adapter = new AgreementAdapter(inflater);
         mListViewAgreements.setAdapter(adapter);
         return rootView;
     }
@@ -75,7 +76,8 @@ public class CooperationAgreementsFragment extends Fragment implements AdapterVi
 
     @Override
     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-
+        Uri uri = new Uri.Builder().appendPath("Agreement").appendPath(String.valueOf(position)).build();
+        mListener.onFragmentInteraction(uri);
     }
 
     private class AgreementAdapter extends BaseAdapter {

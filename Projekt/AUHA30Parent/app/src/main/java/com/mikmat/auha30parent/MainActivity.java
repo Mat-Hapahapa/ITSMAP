@@ -48,6 +48,7 @@ public class MainActivity extends AppCompatActivity
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+        Firebase.setAndroidContext(this);
 
         mContentContainer = (ViewGroup) findViewById(R.id.content_container);
 
@@ -122,16 +123,6 @@ public class MainActivity extends AppCompatActivity
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
-        int id = item.getItemId();
-
-        //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
-        }
-
         return super.onOptionsItemSelected(item);
     }
 
@@ -189,7 +180,32 @@ public class MainActivity extends AppCompatActivity
 
     @Override
     public void onFragmentInteraction(Uri uri) {
+        Fragment fragment = null;
 
+        if (uri.getPathSegments().get(0).equals("Agreement")) {
+            switch (uri.getPathSegments().get(1)) {
+                case "0":
+                    fragment = AgreementFragment.newInstance(true, "Food");
+                    break;
+                case "1":
+                    fragment = AgreementFragment.newInstance(true, "Hygiene");
+                    break;
+                case "2":
+                    fragment = AgreementFragment.newInstance(false, "NIDCAP");
+                    break;
+                case "3":
+                    fragment = AgreementFragment.newInstance(false, "Other");
+                    break;
+                default:
+                    break;
+            }
+        }
+
+
+        if (fragment != null) {
+            FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
+            transaction.replace(R.id.content_container, fragment, fragment.getTag()).addToBackStack(fragment.getTag()).commit();
+        }
     }
 
     @Override

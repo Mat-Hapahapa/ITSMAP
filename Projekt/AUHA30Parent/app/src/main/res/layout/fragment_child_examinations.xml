@@ -4,10 +4,9 @@
     android:layout_height="match_parent"
     tools:context="com.mikmat.auha30parent.ChildExaminationsFragment">
 
-    <!-- TODO: Update blank fragment layout -->
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="Hello Child Examinations" />
+        android:text="Not implemented because of missing information" />
 
 </FrameLayout>
