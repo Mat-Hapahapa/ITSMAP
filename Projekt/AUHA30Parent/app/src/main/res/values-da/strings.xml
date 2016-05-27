@@ -45,9 +45,9 @@
         <item>Andet</item>
     </string-array>
     <string-array name="array_schemaSpinner">
-        <item>Nurse varetager</item>
-        <item>Mom varetager</item>
-        <item>Dad varetager</item>
+        <item>Sygeplejersken varetager</item>
+        <item>Mor varetager</item>
+        <item>Far varetager</item>
     </string-array>
     <string name="mail">boerneafdelinga@auh.rm.dk</string>
     <string name="address">8200 Aarhus N</string>

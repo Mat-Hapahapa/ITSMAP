@@ -9,6 +9,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.Spinner;
 import android.widget.TextView;
@@ -31,6 +32,7 @@ public class AgreementFragment extends Fragment {
     private Spinner spinner5;
 
     private SharedPreferences sharedPreferences;
+    private View view;
     private FragmentInteractionListener mListener;
 
     public AgreementFragment() {
@@ -59,10 +61,11 @@ public class AgreementFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_agreement, container, false);
+        view = inflater.inflate(R.layout.fragment_agreement, container, false);
         sharedPreferences = getContext().getSharedPreferences(getString(R.string.sharedPreferences), Context.MODE_PRIVATE);
 
         if (mParam1 == true) {
+            getSpinnersFromView();
             if (mParam2.equals("Food")) {
                 initFood(view);
             } else if (mParam2.equals("Hygiene")) {
@@ -94,14 +97,22 @@ public class AgreementFragment extends Fragment {
         headlineText.setText(R.string.newBornFood);
         TextView textView1 = (TextView) view.findViewById(R.id.choice1);
         textView1.setText(R.string.giveFood);
+        spinner1.setSelection(sharedPreferences.getInt(getString(R.string.giveFood),0));
         TextView textView2 = (TextView) view.findViewById(R.id.choice2);
         textView2.setText(R.string.mixMilk);
+        spinner2.setSelection(sharedPreferences.getInt(getString(R.string.mixMilk),0));
         TextView textView3 = (TextView) view.findViewById(R.id.choice3);
         textView3.setText(R.string.warmMilk);
+        spinner3.setSelection(sharedPreferences.getInt(getString(R.string.warmMilk),0));
         TextView textView4 = (TextView) view.findViewById(R.id.choice4);
         textView4.setText(R.string.Vitamins);
+        spinner4.setSelection(sharedPreferences.getInt(getString(R.string.Vitamins),0));
         TextView textView5 = (TextView) view.findViewById(R.id.choice5);
         textView5.setText(R.string.sonde);
+        spinner5.setSelection(sharedPreferences.getInt(getString(R.string.sonde),0));
+
+        EditText freetext = (EditText) view.findViewById(R.id.freeText);
+        freetext.setText(sharedPreferences.getString(FREETEXT_FOOD,""));
     }
 
     private void initHygiene(View view) {
@@ -109,24 +120,38 @@ public class AgreementFragment extends Fragment {
         headlineText.setText(R.string.Hygiene);
         TextView textView1 = (TextView) view.findViewById(R.id.choice1);
         textView1.setText(R.string.changeDiaper);
+        spinner1.setSelection(sharedPreferences.getInt(getString(R.string.changeDiaper),0));
         TextView textView2 = (TextView) view.findViewById(R.id.choice2);
         textView2.setText(R.string.washBaby);
+        spinner2.setSelection(sharedPreferences.getInt(getString(R.string.washBaby),0));
         TextView textView3 = (TextView) view.findViewById(R.id.choice3);
         textView3.setText(R.string.bath);
+        spinner3.setSelection(sharedPreferences.getInt(getString(R.string.bath),0));
         TextView textView4 = (TextView) view.findViewById(R.id.choice4);
         textView4.setText(R.string.cleaningAcc);
+        spinner4.setSelection(sharedPreferences.getInt(getString(R.string.cleaningAcc),0));
         TextView textView5 = (TextView) view.findViewById(R.id.choice5);
         textView5.setText(R.string.cleanCribb);
+        spinner5.setSelection(sharedPreferences.getInt(getString(R.string.cleanCribb),0));
+
+        EditText freetext = (EditText) view.findViewById(R.id.freeText);
+        freetext.setText(sharedPreferences.getString(FREETEXT_HYGIENE,""));
     }
 
     private void initNIDCAP(View view) {
         TextView headlineText = (TextView) view.findViewById(R.id.headline);
         headlineText.setText(R.string.NIDCAP);
+
+        EditText freetext = (EditText) view.findViewById(R.id.freeText);
+        freetext.setText(sharedPreferences.getString(FREETEXT_NIDCAP,""));
     }
 
     private void initOther(View view) {
         TextView headlineText = (TextView) view.findViewById(R.id.headline);
         headlineText.setText(R.string.other);
+
+        EditText freetext = (EditText) view.findViewById(R.id.freeText);
+        freetext.setText(sharedPreferences.getString(FREETEXT_OTHER,""));
     }
 
     public void onButtonPressed(Uri uri) {
@@ -158,12 +183,7 @@ public class AgreementFragment extends Fragment {
         TextView freeText = (TextView) getView().findViewById(R.id.freeText);
         switch (agreementType) {
             case "Food":
-                spinner1 = (Spinner)getView().findViewById(R.id.spinner1);
-                spinner2 = (Spinner)getView().findViewById(R.id.spinner2);
-                spinner3 = (Spinner)getView().findViewById(R.id.spinner3);
-                spinner4 = (Spinner)getView().findViewById(R.id.spinner4);
-                spinner5 = (Spinner)getView().findViewById(R.id.spinner5);
-
+                getSpinnersFromView();
                 editor.putInt(getString(R.string.giveFood), spinner1.getSelectedItemPosition());
                 editor.putInt(getString(R.string.mixMilk), spinner2.getSelectedItemPosition());
                 editor.putInt(getString(R.string.warmMilk), spinner3.getSelectedItemPosition());
@@ -173,12 +193,7 @@ public class AgreementFragment extends Fragment {
                 editor.commit();
                 break;
             case "Hygiene":
-                spinner1 = (Spinner)getView().findViewById(R.id.spinner1);
-                spinner2 = (Spinner)getView().findViewById(R.id.spinner2);
-                spinner3 = (Spinner)getView().findViewById(R.id.spinner3);
-                spinner4 = (Spinner)getView().findViewById(R.id.spinner4);
-                spinner5 = (Spinner)getView().findViewById(R.id.spinner5);
-
+                getSpinnersFromView();
                 editor.putInt(getString(R.string.changeDiaper), spinner1.getSelectedItemPosition());
                 editor.putInt(getString(R.string.washBaby), spinner2.getSelectedItemPosition());
                 editor.putInt(getString(R.string.bath), spinner3.getSelectedItemPosition());
@@ -200,11 +215,11 @@ public class AgreementFragment extends Fragment {
         }
     }
 
-    private void getSpinners(){
-        spinner1 = (Spinner)getView().findViewById(R.id.spinner1);
-        spinner2 = (Spinner)getView().findViewById(R.id.spinner2);
-        spinner3 = (Spinner)getView().findViewById(R.id.spinner3);
-        spinner4 = (Spinner)getView().findViewById(R.id.spinner4);
-        spinner5 = (Spinner)getView().findViewById(R.id.spinner5);
+    private void getSpinnersFromView(){
+        spinner1 = (Spinner)view.findViewById(R.id.spinner1);
+        spinner2 = (Spinner)view.findViewById(R.id.spinner2);
+        spinner3 = (Spinner)view.findViewById(R.id.spinner3);
+        spinner4 = (Spinner)view.findViewById(R.id.spinner4);
+        spinner5 = (Spinner)view.findViewById(R.id.spinner5);
     }
 }

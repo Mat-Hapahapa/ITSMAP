@@ -33,7 +33,7 @@ public class BabyService extends Service {
     public int onStartCommand(Intent intent, int flags, int startId) {
 
         SharedPreferences sharedPreferences = getSharedPreferences(getString(R.string.sharedPreferences), MODE_PRIVATE);
-
+        Firebase.setAndroidContext(this);
         Firebase firebase = new Firebase(sharedPreferences.getString(getString(R.string.FbBabyRef),""));
 
         firebase.addChildEventListener(new ChildEventListener() {
