@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+<!--
+ Note: This layout was created to avoid the calendar view on newer version of android as per this link:
+ http://stackoverflow.com/questions/27563874/how-to-hide-calenderview-from-datepicker-in-api-21
+-->
+
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -26,10 +32,6 @@
         android:id="@+id/edit_name"
         android:hint="Navn"/>
 
-
-    <!--
-     Note: http://stackoverflow.com/questions/27563874/how-to-hide-calenderview-from-datepicker-in-api-21
-    -->
     <DatePicker
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

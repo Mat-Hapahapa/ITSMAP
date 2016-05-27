@@ -173,8 +173,8 @@ public class MainActivity extends AppCompatActivity
     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
         Baby chosenOne = (Baby) babyListAdapter.getItem(position);
 
-        Intent intent = new Intent(this, BabyDetailActivity.class);
-        intent.putExtra("barn", chosenOne);
+        Intent intent = new Intent(this, BabyDetailDrawerActivity.class);
+        intent.putExtra(AppPrefs.BABYKEY, chosenOne);
         startActivity(intent);
     }
 

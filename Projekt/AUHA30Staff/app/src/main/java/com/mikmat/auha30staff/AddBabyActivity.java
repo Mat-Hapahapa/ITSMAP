@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.Toolbar;
 import android.telephony.SmsManager;
 import android.view.View;
@@ -41,6 +42,7 @@ public class AddBabyActivity extends AppCompatActivity {
     private DatePicker mDatePickerBirthday;
     private Button mButtonCreateBaby;
     private Spinner mCaretakerSpinner;
+    private Spinner mGenderSpinner;
     private EditText mEditTextParentName;
     private EditText mEditTextPhoneNr;
     private EditText mEditTextEmail;
@@ -65,6 +67,7 @@ public class AddBabyActivity extends AppCompatActivity {
         mEditTextParentName = (EditText) findViewById(R.id.parentName);
         mEditTextPhoneNr = (EditText) findViewById(R.id.phoneNr);
         mEditTextEmail = (EditText) findViewById(R.id.mail);
+        mGenderSpinner = (Spinner) findViewById(R.id.gender_spinner);
 
         mButtonCreateBaby.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -81,6 +84,7 @@ public class AddBabyActivity extends AppCompatActivity {
             public void onDataChange(DataSnapshot dataSnapshot) {
                 ArrayList<String> newList = dataSnapshot.getValue(ArrayList.class);
                 updateCaretaker(newList);
+                prepareEditState();
             }
 
             @Override
@@ -89,6 +93,8 @@ public class AddBabyActivity extends AppCompatActivity {
             }
         });
 
+    }
+    private void prepareEditState() {
         if(editState) {
             mEditTextName.setText(mBaby.getName());
             mEditTextEmail.setText(mBaby.getEmail());
@@ -98,13 +104,29 @@ public class AddBabyActivity extends AppCompatActivity {
             calendar.setTime(mBaby.getBirthday());
             mDatePickerBirthday.updateDate(calendar.get(Calendar.YEAR),calendar.get(Calendar.MONTH), calendar.get(Calendar.DAY_OF_MONTH));
             mCaretakerSpinner.setSelection(mCaretakerList.indexOf(mBaby.getCaretaker()));
-
+            String[] genders = getResources().getStringArray(R.array.array_gender);
+            int index = -1;
+            for (int i = 0; i < genders.length; i++) {
+                if(genders[i].equals(mBaby.getGender()))
+                {
+                    index = i;
+                    break;
+                }
+            }
+            mGenderSpinner.setSelection(index);
         }
-
     }
 
     public void onButtonCreateBabyPressed(){
         Baby baby = generateBaby();
+        if(editState) {
+            Firebase ref = new Firebase(mBaby.getFirebaseRef());
+            baby.setFirebaseRef(mBaby.getFirebaseRef());
+            baby.setID(mBaby.getID());
+            ref.setValue(baby);
+            finish();
+            return;
+        }
 
         if (baby == null) {
             return;
@@ -169,14 +191,14 @@ public class AddBabyActivity extends AppCompatActivity {
             int day = mDatePickerBirthday.getDayOfMonth();
             int month = mDatePickerBirthday.getMonth();
             int year = mDatePickerBirthday.getYear();
-            Spinner genderSpinner = (Spinner) findViewById(R.id.gender_spinner);
+
             String gender;
-            switch (genderSpinner.getSelectedItemPosition()) {
+            switch (mGenderSpinner.getSelectedItemPosition()) {
                 case 1:
-                    gender = genderSpinner.getSelectedItem().toString();
+                    gender = mGenderSpinner.getSelectedItem().toString();
                     break;
                 case 2:
-                    gender = genderSpinner.getSelectedItem().toString();
+                    gender = mGenderSpinner.getSelectedItem().toString();
                     break;
                 default:
                     AlertDialog.Builder builder = new AlertDialog.Builder(this);

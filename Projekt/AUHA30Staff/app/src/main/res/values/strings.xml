@@ -28,5 +28,14 @@
     <string name="parentname">Parents name</string>
     <string name="alertMissingInfo">Please fill out all fields</string>
     <string name="Create">Create</string>
+
     <string name="serviceUpdate">Information about your baby has been changed</string>
+
+    <string name="title_activity_baby_detail_drawer">Baby detail</string>
+    <string name="udskriv_baby">Discharge Baby</string>
+    <string name="parent">Parent: </string>
+    <string name="phone">Phone:</string>
+    <string name="mail">Mail:</string>
+    <string name="toast_contact_warning">Your device does not support this action</string>
+
 </resources>

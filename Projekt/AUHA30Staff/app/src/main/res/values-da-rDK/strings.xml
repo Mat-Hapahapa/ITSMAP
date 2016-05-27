@@ -29,6 +29,11 @@
     <string name="parentname">Forældres navn</string>
     <string name="alertMissingInfo">Felter mangler at blive udfyldt</string>
     <string name="Create">Opret</string>
+    <string name="udskriv_baby">Udskriv Baby</string>
+    <string name="parent">Forælder: </string>
+    <string name="phone">Phone:</string>
+    <string name="mail">E-mail:</string>
+    <string name="toast_contact_warning">Din enhed understøtter ikke denne handling</string>
 
 
 </resources>
