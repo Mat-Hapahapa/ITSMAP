@@ -9,7 +9,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 
-public class ChildExaminationsFragment extends Fragment {
+public class ChildExaminationsFragment extends BaseFragment {
 
     private FragmentInteractionListener mListener;
 

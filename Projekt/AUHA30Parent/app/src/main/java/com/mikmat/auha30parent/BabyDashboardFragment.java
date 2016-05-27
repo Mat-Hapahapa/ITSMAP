@@ -21,7 +21,7 @@ import java.text.SimpleDateFormat;
 import java.util.zip.Inflater;
 
 
-public class BabyDashboardFragment extends Fragment {
+public class BabyDashboardFragment extends BaseFragment {
 
     private FragmentInteractionListener mListener;
     private View view;

@@ -17,7 +17,7 @@ import java.util.Arrays;
 import java.util.Collection;
 
 
-public class CooperationAgreementsFragment extends Fragment implements AdapterView.OnItemClickListener {
+public class CooperationAgreementsFragment extends BaseFragment implements AdapterView.OnItemClickListener {
 
     private static String[] mAgreementList;
     private FragmentInteractionListener mListener;

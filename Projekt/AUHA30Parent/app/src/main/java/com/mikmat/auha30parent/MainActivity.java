@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v4.widget.TextViewCompat;
 import android.util.Log;
@@ -67,6 +68,7 @@ public class MainActivity extends AppCompatActivity
     }
 
     public void updateContentFromIdentifier(int identifier, boolean replace) {
+        clearBackstack();
         Fragment fragment = null;
 
         switch (identifier) {
@@ -96,6 +98,12 @@ public class MainActivity extends AppCompatActivity
                 transaction.add(R.id.content_container, fragment, fragment.getTag()).commit();
             }
         }
+    }
+
+    private void clearBackstack() {
+        FragmentUtils.sDisableFragmentAnimations = true;
+        getSupportFragmentManager().popBackStackImmediate(null, FragmentManager.POP_BACK_STACK_INCLUSIVE);
+        FragmentUtils.sDisableFragmentAnimations = false;
     }
 
     @Override

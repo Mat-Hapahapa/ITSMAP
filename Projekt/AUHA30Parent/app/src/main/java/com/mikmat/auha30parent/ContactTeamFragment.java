@@ -15,7 +15,7 @@ import android.widget.TextView;
 import java.util.List;
 
 
-public class ContactTeamFragment extends Fragment {
+public class ContactTeamFragment extends BaseFragment {
 
 
     private FragmentInteractionListener mListener;
